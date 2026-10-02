@@ -1,25 +1,151 @@
 const D=window.HUB_DATA;
-// Audio is isolated here so an Oxford audio provider/API can be plugged in later without changing the UI.
-const AUDIO_CONFIG={provider:'browser-en-GB',oxfordAudioBaseUrl:''};
-const $=s=>document.querySelector(s);const app=$('#app');
-const state={grade:Number(localStorage.getItem('hubGrade')||1),page:localStorage.getItem('hubPage')||'overview',vocabTab:'today',storyId:Number(localStorage.getItem('hubStory')||1),storyGrade:Number(localStorage.getItem('hubStoryGrade')||1),gameScore:0,gameIndex:0};
+const M=window.MATH_DATA||[];
+const $=s=>document.querySelector(s), app=$('#app');
+const state={
+  grade:Number(localStorage.getItem('hubGrade')||1),
+  page:localStorage.getItem('hubPage')||'overview',
+  vocabTab:localStorage.getItem('hubVocabTab')||'today',
+  storyId:Number(localStorage.getItem('hubStory')||1),
+  storyGrade:Number(localStorage.getItem('hubStoryGrade')||1),
+  gameTab:localStorage.getItem('hubGameTab')||'choice',
+  gameIndex:{choice:0,fill:0,listen:0},
+  gameScore:{choice:0,fill:0,listen:0},
+  mathPage:Number(localStorage.getItem('hubMathPage')||1),
+  mathMode:localStorage.getItem('hubMathMode')||'student'
+};
 const progress=JSON.parse(localStorage.getItem('hubProgress')||'{}');
-function save(){localStorage.setItem('hubProgress',JSON.stringify(progress));localStorage.setItem('hubGrade',state.grade);localStorage.setItem('hubPage',state.page);localStorage.setItem('hubStory',state.storyId);localStorage.setItem('hubStoryGrade',state.storyGrade);updatePill();}
-function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),1600)}
-function speak(text,lang='en-GB'){if(!('speechSynthesis'in window)){toast('Thiết bị chưa hỗ trợ đọc âm thanh');return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=lang;u.rate=0.82;const voices=speechSynthesis.getVoices();const v=voices.find(x=>x.lang===lang)||voices.find(x=>x.lang.startsWith(lang.split('-')[0]));if(v)u.voice=v;speechSynthesis.speak(u)}
-function updatePill(){const p=progress.today||{};const total=10;const done=Object.values(p).filter(Boolean).length;$('#progressPill').textContent=`${Math.round(done/total*100)}% hôm nay`}
-function renderNav(){let h='<button class="grade '+(state.page==='overview'?'active':'')+'" data-page="overview">🏠 <span>Tổng quan</span><span class="arrow">›</span></button>';for(let g=1;g<=10;g++){h+=`<button class="grade ${state.grade===g?'active':''}" data-grade="${g}">📁 <span>Lớp ${g}</span><span class="arrow">›</span></button>`;if(state.grade===g)h+=`<div class="subnav"><button data-page="vocabGames" class="${state.page==='vocabGames'?'active':''}">🌈 Vocabulary Games</button><button data-page="vocabList" class="${state.page==='vocabList'?'active':''}">📚 Vocabulary List</button><button data-page="math" class="${state.page==='math'?'active':''}">➗ Toán tư duy</button><button data-page="vietnamese" class="${state.page==='vietnamese'?'active':''}">📖 Tiếng Việt</button></div>`}$('#gradeNav').innerHTML=h;document.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>{state.grade=+b.dataset.grade;state.page='vocabGames';save();render()});document.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{state.page=b.dataset.page;save();render()})}
-function render(){renderNav();$('#pageTitle').textContent=state.page==='overview'?'Tổng quan':state.page==='vocabGames'?'Vocabulary Games':state.page==='vocabList'?'Vocabulary List':state.page==='math'?'Toán tư duy':'Tiếng Việt';({overview:renderOverview,vocabGames:renderGames,vocabList:renderVocab,math:renderMath,vietnamese:renderVietnamese}[state.page]||renderOverview)();updatePill()}
-function renderOverview(){app.innerHTML=`<div class="hero"><div><div class="eyebrow" style="color:#eee">CHÀO MỪNG BẠN NHỎ</div><h2>Học vui • Nhớ lâu • Tự tin</h2><p>Lớp ${state.grade} · Chọn một khu vực để bắt đầu hôm nay.</p></div><div class="hero-art">🧒📚</div></div><div class="stats"><div class="stat"><strong>10</strong><span>Từ mới hôm nay</span></div><div class="stat"><strong>${D.stories.filter(x=>x.grade===state.grade).length}</strong><span>Truyện lớp ${state.grade}</span></div><div class="stat"><strong>50</strong><span>Trang Toán từ PDF</span></div></div><h2 class="section-title">Nội dung học</h2><div class="grid"><div class="card module-card" data-go="vocabGames"><div class="module-icon">🌈</div><h3>Vocabulary Games</h3><p>Hoàn thiện từ, chọn từ đúng và nghe phát âm tiếng Anh.</p><span class="go">Học ngay →</span></div><div class="card module-card" data-go="vocabList"><div class="module-icon">📚</div><h3>Vocabulary List</h3><p>10 từ mới hôm nay, flashcard, đã thuộc và cần học.</p><span class="go">Mở danh sách →</span></div><div class="card module-card" data-go="math"><div class="module-icon">🧠</div><h3>Toán tư duy</h3><p>Toàn bộ nội dung quyển Toán lớp 1 Quyển 1 trong PDF đã đính kèm.</p><span class="go">Làm bài →</span></div><div class="card module-card" data-go="vietnamese"><div class="module-icon">📖</div><h3>Tiếng Việt</h3><p>100 câu chuyện ngắn theo lớp, đọc to và trả lời trắc nghiệm.</p><span class="go">Đọc truyện →</span></div></div>`;document.querySelectorAll('[data-go]').forEach(x=>x.onclick=()=>{state.page=x.dataset.go;save();render()})}
+
+function save(){
+  localStorage.setItem('hubProgress',JSON.stringify(progress));
+  localStorage.setItem('hubGrade',state.grade);localStorage.setItem('hubPage',state.page);
+  localStorage.setItem('hubVocabTab',state.vocabTab);localStorage.setItem('hubStory',state.storyId);
+  localStorage.setItem('hubStoryGrade',state.storyGrade);localStorage.setItem('hubGameTab',state.gameTab);
+  localStorage.setItem('hubMathPage',state.mathPage);localStorage.setItem('hubMathMode',state.mathMode);
+  updatePill();
+}
+function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('show');clearTimeout(window.__toast);window.__toast=setTimeout(()=>el.classList.remove('show'),1700)}
+function escapeHtml(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
+
+// ===== AUDIO =====
+// Oxford US: dùng đường dẫn audio của Oxford Learner's Dictionaries cho American English.
+// Nếu audio Oxford không tải được, trình duyệt sẽ tự chuyển sang giọng en-US.
+function oxfordUsUrl(word){
+  const w=String(word).toLowerCase().trim().replace(/[^a-z'-]/g,'');
+  if(!w)return '';
+  const first=w[0], bucket=w.slice(0,3)||w;
+  return `https://www.oxfordlearnersdictionaries.com/media/english/us_pron/${first}/${bucket}/${w}/${w}__us_1.mp3`;
+}
+function browserSpeak(text,lang){
+  if(!('speechSynthesis' in window)){toast('Thiết bị chưa hỗ trợ đọc âm thanh.');return;}
+  const run=()=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=lang;u.rate=0.86;u.pitch=1;
+    const voices=speechSynthesis.getVoices();
+    const v=voices.find(x=>x.lang.toLowerCase()===lang.toLowerCase())||voices.find(x=>x.lang.toLowerCase().startsWith(lang.split('-')[0].toLowerCase()));
+    if(v)u.voice=v;speechSynthesis.speak(u);
+  };
+  const voices=speechSynthesis.getVoices(); if(voices.length)run(); else {speechSynthesis.onvoiceschanged=()=>{speechSynthesis.onvoiceschanged=null;run()};setTimeout(run,250)}
+}
+function speakEnglish(word){
+  const url=oxfordUsUrl(word);
+  const audio=new Audio(url);audio.preload='auto';audio.oncanplaythrough=()=>audio.play().catch(()=>browserSpeak(word,'en-US'));audio.onerror=()=>browserSpeak(word,'en-US');
+  audio.play().catch(()=>{audio.load();setTimeout(()=>audio.play().catch(()=>browserSpeak(word,'en-US')),100)});
+}
+function speakVietnamese(text){browserSpeak(text,'vi-VN')}
+
+function updatePill(){const p=progress.today||{};const done=Object.values(p).filter(Boolean).length;$('#progressPill').textContent=`${Math.min(100,Math.round(done/10*100))}% hôm nay`}
+
+// ===== MENU =====
+function renderNav(){
+  let h=`<button class="grade ${state.page==='overview'?'active':''}" data-page="overview">🏠 <span>Tổng quan</span><span class="arrow">›</span></button>`;
+  for(let g=1;g<=10;g++){
+    h+=`<button class="grade ${state.grade===g?'active':''}" data-grade="${g}">📁 <span>Lớp ${g}</span><span class="arrow">›</span></button>`;
+    if(state.grade===g)h+=`<div class="subnav"><button data-page="vocabGames" class="${state.page==='vocabGames'?'active':''}">🌈 Vocabulary Games</button><button data-page="vocabList" class="${state.page==='vocabList'?'active':''}">📚 Vocabulary List</button><button data-page="math" class="${state.page==='math'?'active':''}">🧠 Toán tư duy</button><button data-page="vietnamese" class="${state.page==='vietnamese'?'active':''}">📖 Tiếng Việt</button></div>`;
+  }
+  $('#gradeNav').innerHTML=h;
+  document.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>{state.grade=+b.dataset.grade;state.page='vocabGames';save();closeMenu();render()});
+  document.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{state.page=b.dataset.page;save();closeMenu();render()});
+}
+function openMenu(){ $('#sidebar').classList.add('open');$('#menuOverlay').classList.add('show'); }
+function closeMenu(){ $('#sidebar').classList.remove('open');$('#menuOverlay').classList.remove('show'); }
+$('#menuBtn').onclick=openMenu;$('#menuOverlay').onclick=closeMenu;document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
+
+function render(){
+  renderNav();
+  $('#pageTitle').textContent=({overview:'Tổng quan',vocabGames:'Vocabulary Games',vocabList:'Vocabulary List',math:'Toán tư duy',vietnamese:'Tiếng Việt'})[state.page]||'Tổng quan';
+  ({overview:renderOverview,vocabGames:renderGames,vocabList:renderVocab,math:renderMath,vietnamese:renderVietnamese}[state.page]||renderOverview)();updatePill();
+}
+function renderOverview(){
+  app.innerHTML=`<div class="hero"><div><div class="eyebrow" style="color:#eee">CHÀO MỪNG BẠN NHỎ</div><h2>Học vui • Nhớ lâu • Tự tin</h2><p>Lớp ${state.grade} · Chọn một khu vực để bắt đầu hôm nay.</p></div><div class="hero-art">🧒📚</div></div><div class="stats"><div class="stat"><strong>10</strong><span>Từ mới hôm nay</span></div><div class="stat"><strong>${D.stories.filter(x=>x.grade===state.grade).length}</strong><span>Truyện lớp ${state.grade}</span></div><div class="stat"><strong>${M.length}</strong><span>Trang Toán tương tác</span></div></div><h2 class="section-title">Nội dung học</h2><div class="grid"><div class="card module-card" data-go="vocabGames"><div class="module-icon">🌈</div><h3>Vocabulary Games</h3><p>Chọn từng trò chơi riêng, mỗi trò có điểm riêng.</p><span class="go">Học ngay →</span></div><div class="card module-card" data-go="vocabList"><div class="module-icon">📚</div><h3>Vocabulary List</h3><p>10 từ mới hôm nay, flashcard, đã thuộc và cần học.</p><span class="go">Mở danh sách →</span></div><div class="card module-card" data-go="math"><div class="module-icon">🧠</div><h3>Toán tư duy</h3><p>46 trang bài tập được cắt từ tài liệu, có lớp nhập và chấm đáp án.</p><span class="go">Làm bài →</span></div><div class="card module-card" data-go="vietnamese"><div class="module-icon">📖</div><h3>Tiếng Việt</h3><p>100 truyện cổ tích và ngụ ngôn, 16–19 câu, đọc to và đọc hiểu.</p><span class="go">Đọc truyện →</span></div></div>`;
+  document.querySelectorAll('[data-go]').forEach(x=>x.onclick=()=>{state.page=x.dataset.go;save();render()});
+}
+
+// ===== VOCAB LIST =====
 function vocab(){return D.vocabulary[String(state.grade)]||[]}
 function isMastered(word){return !!(progress.mastered&&progress.mastered[word])}
 function setMastered(word,val){progress.mastered=progress.mastered||{};progress.mastered[word]=val;progress.today=progress.today||{};progress.today[word]=val;save()}
-function renderVocab(){const words=vocab();const mastered=words.filter(x=>isMastered(x.word));const need=words.filter(x=>!isMastered(x.word));let body='';if(state.vocabTab==='today'){body=`<div class="flash-grid">${words.map((x,i)=>`<div class="flash"><div><span class="eyebrow">TỪ ${i+1}/10</span><div class="word">${x.word}</div><div class="meaning">${x.meaning}</div></div><div class="flash-actions"><button class="btn secondary sound" title="Nghe phát âm" data-speak="${x.word}">🔊</button><button class="btn ${isMastered(x.word)?'good':'warn'}" data-master="${x.word}">${isMastered(x.word)?'✓ Đã thuộc':'□ Cần học'}</button></div></div>`).join('')}</div>`}else{const arr=state.vocabTab==='mastered'?mastered:need;body=arr.length?`<div class="word-list">${arr.map(x=>`<div class="word-row"><b>${x.word}</b><span>${x.meaning}</span><button class="btn secondary sound" data-speak="${x.word}">🔊</button><label class="check"><input type="checkbox" ${isMastered(x.word)?'checked':''} data-check="${x.word}"> Đã thuộc</label></div>`).join('')}</div>`:`<div class="empty">Chưa có từ nào ở mục này.</div>`}
-app.innerHTML=`<div class="toolbar"><select id="gradeSelect" class="select">${Array.from({length:10},(_,i)=>`<option value="${i+1}" ${state.grade===i+1?'selected':''}>Lớp ${i+1}</option>`).join('')}</select><span class="muted">10 từ được phân bổ theo lớp. Phát âm dùng giọng English (UK); có thể thay provider bằng Oxford API sau.</span></div><div class="tabs"><button class="tab ${state.vocabTab==='today'?'active':''}" data-vtab="today">10 từ mới hôm nay</button><button class="tab ${state.vocabTab==='mastered'?'active':''}" data-vtab="mastered">Vocab đã thuộc (${mastered.length})</button><button class="tab ${state.vocabTab==='need'?'active':''}" data-vtab="need">Cần học (${need.length})</button></div>${body}`;
-$('#gradeSelect').onchange=e=>{state.grade=+e.target.value;save();render()};document.querySelectorAll('[data-vtab]').forEach(x=>x.onclick=()=>{state.vocabTab=x.dataset.vtab;render()});document.querySelectorAll('[data-speak]').forEach(x=>x.onclick=()=>speak(x.dataset.speak));document.querySelectorAll('[data-master]').forEach(x=>x.onclick=()=>{setMastered(x.dataset.master,!isMastered(x.dataset.master));render()});document.querySelectorAll('[data-check]').forEach(x=>x.onchange=()=>{setMastered(x.dataset.check,x.checked);render()})}
-let gameWords=[];function resetGame(){gameWords=vocab();state.gameIndex=0;state.gameScore=0}
-function renderGames(){if(!gameWords.length)resetGame();const w=gameWords[state.gameIndex%gameWords.length];const next=(state.gameIndex+1)%gameWords.length;const choices=[w.word,...vocab().filter(x=>x.word!==w.word).slice(0,3).map(x=>x.word)].sort(()=>Math.random()-.5);const masked=w.word.length>4?w.word[0]+' _ '.repeat(Math.max(1,Math.min(3,w.word.length-2)))+w.word[w.word.length-1]:w.word[0]+' _ '+w.word.slice(2);app.innerHTML=`<div class="note">🎧 Nút 🔊 phát âm bằng giọng English (UK) của trình duyệt. Kiến trúc đã tách riêng để tích hợp Oxford audio/API khi bạn cung cấp key/provider.</div><div class="game-grid"><div class="card game-card"><div class="eyebrow">GAME 1 · CHỌN TỪ</div><div class="game-question">Từ tiếng Anh nào có nghĩa <em>“${w.meaning}”</em>?</div><div class="options">${choices.map(c=>`<button class="option" data-choice="${c}">${c}</button>`).join('')}</div><div class="muted" style="margin-top:16px">Điểm: <b>${state.gameScore}</b> · ${state.gameIndex+1}/${gameWords.length}</div></div><div class="card game-card"><div class="eyebrow">GAME 2 · HOÀN THIỆN TỪ</div><div class="game-question">${masked}</div><button class="btn secondary sound" data-speak="${w.word}" style="margin-bottom:12px">🔊 Nghe</button><input id="fillInput" class="input" placeholder="Gõ từ hoàn chỉnh…" autocomplete="off"><button id="checkFill" class="btn primary" style="margin-top:10px;width:100%">Kiểm tra</button><div id="fillResult" class="muted" style="margin-top:12px"></div></div></div>`;document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{if(b.dataset.choice===w.word){b.classList.add('correct');state.gameScore++;toast('Chính xác! 🎉');setTimeout(()=>{state.gameIndex=next;renderGames()},500)}else{b.classList.add('wrong');toast('Thử lại nhé!')}});$('#checkFill').onclick=()=>{const v=$('#fillInput').value.trim().toLowerCase();if(v===w.word){$('#fillResult').textContent='✓ Chính xác!';state.gameScore++;setTimeout(()=>{state.gameIndex=next;renderGames()},500)}else $('#fillResult').textContent='Chưa đúng — nghe lại và thử lần nữa.'};document.querySelector('[data-speak]').onclick=()=>speak(w.word)}
-function renderMath(){app.innerHTML=`<div class="note">📘 Nội dung Toán được giữ nguyên theo file PDF bạn đã đính kèm: <b>Toán lớp 1 — Quyển 1</b>. PDF được nhúng trực tiếp vào ứng dụng để giữ nguyên nội dung bài tập.</div><div class="math-viewer"><div class="math-toolbar"><button class="btn secondary" onclick="document.getElementById('pdfFrame').contentWindow.print()">🖨 In</button><a class="btn primary" href="assets/toan-lop1-quyen1.pdf" target="_blank">Mở PDF</a><span>50 trang · xem trên điện thoại hoặc máy tính</span></div><iframe id="pdfFrame" class="pdf" src="assets/toan-lop1-quyen1.pdf#page=1"></iframe></div>`}
-function stories(){return D.stories.filter(s=>s.grade===state.storyGrade)}
-function renderVietnamese(){let list=stories();if(!list.find(s=>s.id===state.storyId))state.storyId=list[0].id;const s=list.find(x=>x.id===state.storyId);app.innerHTML=`<div class="toolbar"><select id="storyGrade" class="select">${Array.from({length:10},(_,i)=>`<option value="${i+1}" ${state.storyGrade===i+1?'selected':''}>Lớp ${i+1}</option>`).join('')}</select><div class="read-controls"><button class="btn primary" id="readAll">🔊 Đọc to</button><button class="btn secondary" id="stopRead">⏹ Dừng</button></div><span class="muted">100 câu chuyện · mỗi truyện 8 câu · 3 câu hỏi trắc nghiệm</span></div><div class="reading-grid"><div class="card story-list">${list.map(x=>`<div class="story-item ${x.id===s.id?'active':''}" data-story="${x.id}"><b>${x.title}</b><small>8 câu · Lớp ${x.grade}</small></div>`).join('')}</div><div class="card"><div class="story-head"><div><div class="eyebrow">TIẾNG VIỆT · LỚP ${s.grade}</div><h2 class="story-title">${s.title}</h2></div><button class="btn secondary" id="readStory">🔊 Đọc truyện</button></div><div class="story-text">${s.sentences.map((t,i)=>`<span class="story-sentence">${i+1}. ${t}</span>`).join('')}</div><h3 class="section-title" style="margin-top:12px">Câu hỏi đọc hiểu</h3>${s.questions.map((q,qi)=>`<div class="question"><b>${qi+1}. ${q.q}</b><div class="options">${q.options.map((o,oi)=>`<button class="option" data-q="${qi}" data-a="${oi}">${o}</button>`).join('')}</div></div>`).join('')}</div></div>`;$('#storyGrade').onchange=e=>{state.storyGrade=+e.target.value;const l=stories();state.storyId=l[0].id;save();render()};document.querySelectorAll('[data-story]').forEach(x=>x.onclick=()=>{state.storyId=+x.dataset.story;save();render()});const read=()=>speak(s.sentences.join(' '),'vi-VN');$('#readStory').onclick=read;$('#readAll').onclick=read;$('#stopRead').onclick=()=>speechSynthesis.cancel();document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{const qi=+b.dataset.q,ai=+b.dataset.a,correct=s.questions[qi].answer;document.querySelectorAll(`[data-q="${qi}"]`).forEach(x=>x.disabled=true);if(ai===correct){b.classList.add('correct');toast('Đúng rồi! ⭐')}else{b.classList.add('wrong');document.querySelector(`[data-q="${qi}"][data-a="${correct}"]`).classList.add('correct');toast('Xem lại câu trong bài nhé.')}})}
-$('#menuBtn').onclick=()=>$('#sidebar').classList.toggle('open');render();
+function renderVocab(){
+  const words=vocab(), mastered=words.filter(x=>isMastered(x.word)), need=words.filter(x=>!isMastered(x.word));
+  let body='';
+  if(state.vocabTab==='today') body=`<div class="flash-grid">${words.map((x,i)=>`<div class="flash"><div><span class="eyebrow">TỪ ${i+1}/10</span><div class="word">${escapeHtml(x.word)}</div><div class="meaning">${escapeHtml(x.meaning)}</div></div><div class="flash-actions"><button class="btn secondary sound" title="Nghe phát âm Oxford Mỹ" data-en-speak="${escapeHtml(x.word)}">🔊</button><button class="btn ${isMastered(x.word)?'good':'warn'}" data-master="${escapeHtml(x.word)}">${isMastered(x.word)?'✓ Đã thuộc':'□ Cần học'}</button></div></div>`).join('')}</div>`;
+  else {const arr=state.vocabTab==='mastered'?mastered:need;body=arr.length?`<div class="word-list">${arr.map(x=>`<div class="word-row"><b>${escapeHtml(x.word)}</b><span>${escapeHtml(x.meaning)}</span><button class="btn secondary sound" data-en-speak="${escapeHtml(x.word)}">🔊</button><label class="check"><input type="checkbox" ${isMastered(x.word)?'checked':''} data-check="${escapeHtml(x.word)}"> Đã thuộc</label></div>`).join('')}</div>`:`<div class="empty">Chưa có từ nào ở mục này.</div>`}
+  app.innerHTML=`<div class="toolbar"><select id="gradeSelect" class="select">${Array.from({length:10},(_,i)=>`<option value="${i+1}" ${state.grade===i+1?'selected':''}>Lớp ${i+1}</option>`).join('')}</select><span class="muted">Phát âm tiếng Anh ưu tiên Oxford American English; nếu Oxford không tải được sẽ dùng giọng en-US của thiết bị.</span></div><div class="tabs"><button class="tab ${state.vocabTab==='today'?'active':''}" data-vtab="today">10 từ mới hôm nay</button><button class="tab ${state.vocabTab==='mastered'?'active':''}" data-vtab="mastered">Vocab đã thuộc (${mastered.length})</button><button class="tab ${state.vocabTab==='need'?'active':''}" data-vtab="need">Cần học (${need.length})</button></div>${body}`;
+  $('#gradeSelect').onchange=e=>{state.grade=+e.target.value;save();render()};document.querySelectorAll('[data-vtab]').forEach(x=>x.onclick=()=>{state.vocabTab=x.dataset.vtab;save();render()});document.querySelectorAll('[data-en-speak]').forEach(x=>x.onclick=()=>speakEnglish(x.dataset.enSpeak));document.querySelectorAll('[data-master]').forEach(x=>x.onclick=()=>{setMastered(x.dataset.master,!isMastered(x.dataset.master));render()});document.querySelectorAll('[data-check]').forEach(x=>x.onchange=()=>{setMastered(x.dataset.check,x.checked);render()});
+}
+
+// ===== VOCAB GAMES =====
+function resetGame(tab){state.gameIndex[tab]=0;state.gameScore[tab]=0;}
+function currentGameWord(tab){const words=vocab();return words[state.gameIndex[tab]%words.length]||words[0]}
+function nextGame(tab){state.gameIndex[tab]=(state.gameIndex[tab]+1)%Math.max(1,vocab().length);save();renderGames()}
+function maskedWord(word){
+  const n=word.length;let start=Math.max(1,Math.floor(n/2)-1);let len=n>=6?2:1;if(start+len>n-1)start=Math.max(1,n-len-1);return {before:word.slice(0,start),missing:word.slice(start,start+len),after:word.slice(start+len)};
+}
+function gameTabs(){return `<div class="tabs game-tabs"><button class="tab ${state.gameTab==='choice'?'active':''}" data-game-tab="choice">🎯 Chọn từ</button><button class="tab ${state.gameTab==='fill'?'active':''}" data-game-tab="fill">✏️ Hoàn thiện từ</button><button class="tab ${state.gameTab==='listen'?'active':''}" data-game-tab="listen">🎧 Nghe và chọn</button></div>`}
+function renderGames(){
+  const w=currentGameWord(state.gameTab);let body='';
+  if(state.gameTab==='choice'){
+    const choices=[w.word,...vocab().filter(x=>x.word!==w.word).slice(0,3).map(x=>x.word)].sort(()=>Math.random()-.5);
+    body=`<div class="card game-card single-game"><div class="eyebrow">GAME 1 · CHỌN TỪ</div><button class="btn secondary sound big-sound" data-en-speak="${escapeHtml(w.word)}">🔊 Nghe từ</button><div class="game-question">Từ tiếng Anh nào có nghĩa <em>“${escapeHtml(w.meaning)}”</em>?</div><div class="options">${choices.map(c=>`<button class="option" data-choice="${escapeHtml(c)}">${escapeHtml(c)}</button>`).join('')}</div><div class="score-line">Điểm trò này: <b>${state.gameScore.choice}</b> · ${state.gameIndex.choice+1}/${vocab().length}</div></div>`;
+  } else if(state.gameTab==='fill'){
+    const m=maskedWord(w.word);
+    body=`<div class="card game-card single-game"><div class="eyebrow">GAME 2 · HOÀN THIỆN TỪ</div><div class="game-question">Điền đúng phần còn thiếu.</div><div class="inline-word" aria-label="Từ có một phần bị khuyết"><span>${escapeHtml(m.before)}</span><input id="fillInput" class="inline-letter-input" maxlength="${m.missing.length}" autocomplete="off" aria-label="Phần còn thiếu"><span>${escapeHtml(m.after)}</span></div><button class="btn secondary" data-en-speak="${escapeHtml(w.word)}">🔊 Nghe</button><button id="checkFill" class="btn primary" style="margin-top:12px">Kiểm tra</button><div id="fillResult" class="result-space"></div><div class="score-line">Điểm trò này: <b>${state.gameScore.fill}</b> · ${state.gameIndex.fill+1}/${vocab().length}</div></div>`;
+  } else {
+    const choices=[w,...vocab().filter(x=>x.word!==w.word).slice(0,3)].sort(()=>Math.random()-.5);
+    body=`<div class="card game-card single-game"><div class="eyebrow">GAME 3 · NGHE VÀ CHỌN</div><button id="playListen" class="listen-big">🔊</button><div class="game-question">Nghe từ rồi chọn từ em vừa nghe.</div><div class="options">${choices.map(c=>`<button class="option" data-listen-choice="${escapeHtml(c.word)}">${escapeHtml(c.word)}</button>`).join('')}</div><div class="score-line">Điểm trò này: <b>${state.gameScore.listen}</b> · ${state.gameIndex.listen+1}/${vocab().length}</div></div>`;
+  }
+  app.innerHTML=`<div class="note">🔊 Âm thanh tiếng Anh ưu tiên nguồn phát âm American English của Oxford; nếu nguồn ngoài không phản hồi, thiết bị sẽ đọc bằng giọng en-US để không bị mất chức năng nghe.</div>${gameTabs()}${body}`;
+  document.querySelectorAll('[data-game-tab]').forEach(b=>b.onclick=()=>{state.gameTab=b.dataset.gameTab;save();renderGames()});
+  document.querySelectorAll('[data-en-speak]').forEach(b=>b.onclick=()=>speakEnglish(b.dataset.enSpeak));
+  document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const ok=b.dataset.choice===w.word;if(ok){b.classList.add('correct');state.gameScore.choice++;toast('Chính xác! 🎉');setTimeout(()=>nextGame('choice'),350)}else{b.classList.add('wrong');toast('Chưa đúng, thử lại nhé.')}});
+  if($('#checkFill'))$('#checkFill').onclick=()=>{const v=$('#fillInput').value.trim().toLowerCase();const m=maskedWord(w.word);if(v===m.missing.toLowerCase()){state.gameScore.fill++;$('#fillResult').innerHTML='<span class="success">✓ Chính xác!</span>';toast('Tuyệt vời! 🎉');setTimeout(()=>nextGame('fill'),450)}else $('#fillResult').innerHTML='<span class="error">✗ Chưa đúng. Em chỉ cần điền phần bị khuyết.</span>';};
+  if($('#fillInput'))$('#fillInput').onkeydown=e=>{if(e.key==='Enter')$('#checkFill').click()};
+  document.querySelectorAll('[data-listen-choice]').forEach(b=>b.onclick=()=>{const ok=b.dataset.listenChoice===w.word;if(ok){b.classList.add('correct');state.gameScore.listen++;toast('Nghe rất tốt! 🎧');setTimeout(()=>nextGame('listen'),350)}else{b.classList.add('wrong');toast('Nghe lại rồi thử nhé.')}});
+  if($('#playListen'))$('#playListen').onclick=()=>speakEnglish(w.word);
+}
+
+// ===== TOÁN TƯ DUY =====
+function getMathKey(page){const all=JSON.parse(localStorage.getItem('hubMathKeys')||'{}');return all[page]||[]}
+function setMathKey(page,key){const all=JSON.parse(localStorage.getItem('hubMathKeys')||'{}');all[page]=key;localStorage.setItem('hubMathKeys',JSON.stringify(all))}
+function getMathAnswers(page){const all=JSON.parse(localStorage.getItem('hubMathAnswers')||'{}');return all[page]||[]}
+function setMathAnswers(page,ans){const all=JSON.parse(localStorage.getItem('hubMathAnswers')||'{}');all[page]=ans;localStorage.setItem('hubMathAnswers',JSON.stringify(all))}
+function renderMath(){
+  const item=M[state.mathPage-1]||M[0], key=getMathKey(item.id), answers=getMathAnswers(item.id), count=item.answerCount;
+  const answerBoxes=Array.from({length:count},(_,i)=>`<label class="answer-field"><span>Câu ${i+1}</span><input data-math-answer="${i}" value="${escapeHtml(answers[i]||'')}" autocomplete="off"></label>`).join('');
+  const teacher=state.mathMode==='teacher';
+  const keyBoxes=Array.from({length:count},(_,i)=>`<label class="answer-field"><span>Đáp án ${i+1}</span><input data-math-key="${i}" value="${escapeHtml(key[i]||'')}" autocomplete="off"></label>`).join('');
+  app.innerHTML=`<div class="toolbar"><select id="mathPageSelect" class="select">${M.map(x=>`<option value="${x.id}" ${x.id===item.id?'selected':''}>Trang ${x.id} · PDF ${x.pdfPage}</option>`).join('')}</select><div class="tabs math-mode-tabs"><button class="tab ${!teacher?'active':''}" data-math-mode="student">👧 Học sinh</button><button class="tab ${teacher?'active':''}" data-math-mode="teacher">🛠 Biên tập đáp án</button></div><span class="muted">${M.length} trang bài tập</span></div><div class="math-layout"><div class="math-viewer"><div class="math-toolbar"><button class="btn secondary" id="mathPrev">← Trang trước</button><button class="btn secondary" id="mathNext">Trang sau →</button><span>Trang PDF ${item.pdfPage}</span></div><div class="math-image-wrap"><img class="math-page-image" src="${item.image}" alt="Bài tập Toán lớp 1, trang ${item.pdfPage}" loading="eager"></div></div><div class="card math-answer-card">${teacher?`<h3>🛠 Đáp án chuẩn</h3><p class="muted">Nhập đáp án theo thứ tự câu hỏi trên trang. Không cần sửa mã nguồn.</p><div class="answer-grid">${keyBoxes}</div><button id="saveMathKey" class="btn primary">Lưu đáp án trang này</button><div class="note small-note">Tài liệu gốc là bản quét nên không có đáp án máy đọc được. Ứng dụng không tự đoán đáp án để tránh chấm sai.</div>`:`<h3>✏️ Bài làm của em</h3><p class="muted">Điền đáp án rồi bấm kiểm tra.</p><div class="answer-grid">${answerBoxes}</div><button id="checkMath" class="btn primary">Kiểm tra bài</button><div id="mathResult" class="math-result"></div>`}</div></div>`;
+  $('#mathPageSelect').onchange=e=>{state.mathPage=+e.target.value;save();renderMath()};document.querySelectorAll('[data-math-mode]').forEach(b=>b.onclick=()=>{state.mathMode=b.dataset.mathMode;save();renderMath()});
+  $('#mathPrev').onclick=()=>{state.mathPage=Math.max(1,state.mathPage-1);save();renderMath()};$('#mathNext').onclick=()=>{state.mathPage=Math.min(M.length,state.mathPage+1);save();renderMath()};
+  if(teacher){$('#saveMathKey').onclick=()=>{const key=Array.from(document.querySelectorAll('[data-math-key]')).map(x=>x.value.trim());setMathKey(item.id,key);toast('Đã lưu đáp án trang này ✓');renderMath()}}
+  else {$('#checkMath').onclick=()=>{const ans=Array.from(document.querySelectorAll('[data-math-answer]')).map(x=>x.value.trim());setMathAnswers(item.id,ans);if(!key.length||key.every(x=>!String(x).trim())){$('#mathResult').innerHTML='<div class="note">Chưa có đáp án chuẩn cho trang này. Hãy vào <b>Biên tập đáp án</b> để nhập đáp án trước khi chấm.</div>';return}let correct=0;ans.forEach((v,i)=>{if(String(v).trim().toLowerCase()===String(key[i]||'').trim().toLowerCase())correct++});const total=key.filter(x=>String(x).trim()).length;$('#mathResult').innerHTML=`<div class="result-card"><b>${correct}/${total}</b> câu đúng · ${total?Math.round(correct/total*100):0}%</div>`;toast(correct===total?'Hoàn thành chính xác! 🎉':'Đã chấm xong, xem lại các câu chưa đúng nhé.')}}
+}
+
+// ===== TIẾNG VIỆT =====
+function stories(){return D.stories.filter(x=>x.grade===state.storyGrade)}
+function renderVietnamese(){
+  let list=stories();if(!list.find(s=>s.id===state.storyId))state.storyId=list[0].id;const s=list.find(x=>x.id===state.storyId);
+  app.innerHTML=`<div class="toolbar"><select id="storyGrade" class="select">${Array.from({length:10},(_,i)=>`<option value="${i+1}" ${state.storyGrade===i+1?'selected':''}>Lớp ${i+1}</option>`).join('')}</select><div class="read-controls"><button class="btn primary" id="readAll">🔊 Đọc to</button><button class="btn secondary" id="stopRead">⏹ Dừng</button></div><span class="muted">10 truyện/lớp · tổng 100 truyện · 16–19 câu/truyện</span></div><div class="reading-grid"><div class="card story-list">${list.map(x=>`<div class="story-item ${x.id===s.id?'active':''}" data-story="${x.id}"><b>${escapeHtml(x.title)}</b><small>${x.sentences.length} câu · Lớp ${x.grade}</small></div>`).join('')}</div><div class="card"><div class="story-head"><div><div class="eyebrow">TIẾNG VIỆT · LỚP ${s.grade}</div><h2 class="story-title">${escapeHtml(s.title)}</h2></div><button class="btn secondary" id="readStory">🔊 Đọc truyện</button></div><div class="story-text">${s.sentences.map(t=>`<span class="story-sentence">${escapeHtml(t)}</span>`).join('')}</div><h3 class="section-title" style="margin-top:12px">Câu hỏi đọc hiểu</h3>${s.questions.map((q,qi)=>`<div class="question"><b>${qi+1}. ${escapeHtml(q.q)}</b><div class="options">${q.options.map((o,oi)=>`<button class="option" data-q="${qi}" data-a="${oi}">${escapeHtml(o)}</button>`).join('')}</div></div>`).join('')}</div></div>`;
+  $('#storyGrade').onchange=e=>{state.storyGrade=+e.target.value;const l=stories();state.storyId=l[0].id;save();render()};document.querySelectorAll('[data-story]').forEach(x=>x.onclick=()=>{state.storyId=+x.dataset.story;save();render()});
+  const read=()=>speakVietnamese(s.sentences.join(' '));$('#readStory').onclick=read;$('#readAll').onclick=read;$('#stopRead').onclick=()=>speechSynthesis.cancel();
+  document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{const qi=+b.dataset.q,ai=+b.dataset.a,correct=s.questions[qi].answer;document.querySelectorAll(`[data-q="${qi}"]`).forEach(x=>x.disabled=true);if(ai===correct){b.classList.add('correct');toast('Đúng rồi! ⭐')}else{b.classList.add('wrong');document.querySelector(`[data-q="${qi}"][data-a="${correct}"]`).classList.add('correct');toast('Xem lại nội dung truyện nhé.')}})
+}
+
+render();

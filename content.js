@@ -525,45 +525,63 @@ window.HUB_DATA = {
     {
       "id": 1,
       "grade": 1,
-      "title": "Bài đọc 1: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 1",
       "sentences": [
-        "Sáng nay, Lan đến trường học.",
-        "Lan mang theo a little notebook.",
-        "Trời mát.",
-        "Lan thấy một chiếc lá xanh ở gần đó.",
-        "Bạn ấy watered the plant.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Lan vui vẻ trở về nhà."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "trường học",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -572,45 +590,63 @@ window.HUB_DATA = {
     {
       "id": 2,
       "grade": 1,
-      "title": "Bài đọc 2: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 1",
       "sentences": [
-        "Sáng nay, Minh đến công viên.",
-        "Minh mang theo a blue kite.",
-        "Có mây nhẹ.",
-        "Minh thấy một quả bóng ở gần đó.",
-        "Bạn ấy opened the notebook.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Minh vui vẻ trở về nhà."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "công viên",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -619,45 +655,63 @@ window.HUB_DATA = {
     {
       "id": 3,
       "grade": 1,
-      "title": "Bài đọc 3: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 1",
       "sentences": [
-        "Sáng nay, An đến thư viện.",
-        "An mang theo a red umbrella.",
-        "Mưa nhỏ.",
-        "An thấy một chiếc hộp nhỏ ở gần đó.",
-        "Bạn ấy carried the backpack.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, An vui vẻ trở về nhà."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "thư viện",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -666,45 +720,63 @@ window.HUB_DATA = {
     {
       "id": 4,
       "grade": 1,
-      "title": "Bài đọc 4: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 1",
       "sentences": [
-        "Sáng nay, Mai đến khu vườn.",
-        "Mai mang theo a small plant.",
-        "Gió nhẹ.",
-        "Mai thấy một bông hoa ở gần đó.",
-        "Bạn ấy read the storybook.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Mai vui vẻ trở về nhà."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "khu vườn",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -713,45 +785,63 @@ window.HUB_DATA = {
     {
       "id": 5,
       "grade": 1,
-      "title": "Bài đọc 5: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 1",
       "sentences": [
-        "Sáng nay, Nam đến sân nhà.",
-        "Nam mang theo a yellow backpack.",
-        "Trời nắng.",
-        "Nam thấy một chiếc khăn ở gần đó.",
-        "Bạn ấy cleaned the classroom.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Nam vui vẻ trở về nhà."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "sân nhà",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -760,45 +850,63 @@ window.HUB_DATA = {
     {
       "id": 6,
       "grade": 1,
-      "title": "Bài đọc 6: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 1",
       "sentences": [
-        "Sáng nay, Linh đến bảo tàng.",
-        "Linh mang theo a paper boat.",
-        "Trời mát.",
-        "Linh thấy một tấm ảnh ở gần đó.",
-        "Bạn ấy flew the kite.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Linh vui vẻ trở về nhà."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "bảo tàng",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -807,45 +915,63 @@ window.HUB_DATA = {
     {
       "id": 7,
       "grade": 1,
-      "title": "Bài đọc 7: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 1",
       "sentences": [
-        "Sáng nay, Huy đến bờ sông.",
-        "Huy mang theo a new bicycle.",
-        "Có mây nhẹ.",
-        "Huy thấy một quyển sách ở gần đó.",
-        "Bạn ấy rode the bicycle.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Huy vui vẻ trở về nhà."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "bờ sông",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -854,45 +980,63 @@ window.HUB_DATA = {
     {
       "id": 8,
       "grade": 1,
-      "title": "Bài đọc 8: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 1",
       "sentences": [
-        "Sáng nay, Vy đến lớp học.",
-        "Vy mang theo a storybook.",
-        "Mưa nhỏ.",
-        "Vy thấy một chiếc bút chì ở gần đó.",
-        "Bạn ấy folded the paper boat.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Vy vui vẻ trở về nhà."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "lớp học",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -901,45 +1045,63 @@ window.HUB_DATA = {
     {
       "id": 9,
       "grade": 1,
-      "title": "Bài đọc 9: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 1",
       "sentences": [
-        "Sáng nay, Khoa đến khu phố.",
-        "Khoa mang theo a lunch box.",
-        "Gió nhẹ.",
-        "Khoa thấy một chiếc lá xanh ở gần đó.",
-        "Bạn ấy shared the lunch.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Khoa vui vẻ trở về nhà."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "khu phố",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -948,45 +1110,63 @@ window.HUB_DATA = {
     {
       "id": 10,
       "grade": 1,
-      "title": "Bài đọc 10: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 1",
       "sentences": [
-        "Sáng nay, Trang đến góc đọc sách.",
-        "Trang mang theo a small camera.",
-        "Trời nắng.",
-        "Trang thấy một quả bóng ở gần đó.",
-        "Bạn ấy looked at the old picture.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Trang vui vẻ trở về nhà."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "góc đọc sách",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
@@ -995,45 +1175,63 @@ window.HUB_DATA = {
     {
       "id": 11,
       "grade": 2,
-      "title": "Bài đọc 11: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 2",
       "sentences": [
-        "Sáng nay, Lan đến công viên.",
-        "Lan mang theo a little notebook.",
-        "Có mây nhẹ.",
-        "Lan thấy một chiếc hộp nhỏ ở gần đó.",
-        "Bạn ấy opened the notebook.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Lan vui vẻ trở về nhà."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "công viên",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -1042,45 +1240,63 @@ window.HUB_DATA = {
     {
       "id": 12,
       "grade": 2,
-      "title": "Bài đọc 12: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 2",
       "sentences": [
-        "Sáng nay, Minh đến thư viện.",
-        "Minh mang theo a blue kite.",
-        "Mưa nhỏ.",
-        "Minh thấy một bông hoa ở gần đó.",
-        "Bạn ấy carried the backpack.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Minh vui vẻ trở về nhà."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "thư viện",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -1089,45 +1305,63 @@ window.HUB_DATA = {
     {
       "id": 13,
       "grade": 2,
-      "title": "Bài đọc 13: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 2",
       "sentences": [
-        "Sáng nay, An đến khu vườn.",
-        "An mang theo a red umbrella.",
-        "Gió nhẹ.",
-        "An thấy một chiếc khăn ở gần đó.",
-        "Bạn ấy read the storybook.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, An vui vẻ trở về nhà."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "khu vườn",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -1136,45 +1370,63 @@ window.HUB_DATA = {
     {
       "id": 14,
       "grade": 2,
-      "title": "Bài đọc 14: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 2",
       "sentences": [
-        "Sáng nay, Mai đến sân nhà.",
-        "Mai mang theo a small plant.",
-        "Trời nắng.",
-        "Mai thấy một tấm ảnh ở gần đó.",
-        "Bạn ấy cleaned the classroom.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Mai vui vẻ trở về nhà."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "sân nhà",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -1183,45 +1435,63 @@ window.HUB_DATA = {
     {
       "id": 15,
       "grade": 2,
-      "title": "Bài đọc 15: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 2",
       "sentences": [
-        "Sáng nay, Nam đến bảo tàng.",
-        "Nam mang theo a yellow backpack.",
-        "Trời mát.",
-        "Nam thấy một quyển sách ở gần đó.",
-        "Bạn ấy flew the kite.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Nam vui vẻ trở về nhà."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -1230,45 +1500,63 @@ window.HUB_DATA = {
     {
       "id": 16,
       "grade": 2,
-      "title": "Bài đọc 16: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 2",
       "sentences": [
-        "Sáng nay, Linh đến bờ sông.",
-        "Linh mang theo a paper boat.",
-        "Có mây nhẹ.",
-        "Linh thấy một chiếc bút chì ở gần đó.",
-        "Bạn ấy rode the bicycle.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Linh vui vẻ trở về nhà."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "bờ sông",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -1277,45 +1565,63 @@ window.HUB_DATA = {
     {
       "id": 17,
       "grade": 2,
-      "title": "Bài đọc 17: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 2",
       "sentences": [
-        "Sáng nay, Huy đến lớp học.",
-        "Huy mang theo a new bicycle.",
-        "Mưa nhỏ.",
-        "Huy thấy một chiếc lá xanh ở gần đó.",
-        "Bạn ấy folded the paper boat.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Huy vui vẻ trở về nhà."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "lớp học",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -1324,45 +1630,63 @@ window.HUB_DATA = {
     {
       "id": 18,
       "grade": 2,
-      "title": "Bài đọc 18: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 2",
       "sentences": [
-        "Sáng nay, Vy đến khu phố.",
-        "Vy mang theo a storybook.",
-        "Gió nhẹ.",
-        "Vy thấy một quả bóng ở gần đó.",
-        "Bạn ấy shared the lunch.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Vy vui vẻ trở về nhà."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "khu phố",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -1371,45 +1695,63 @@ window.HUB_DATA = {
     {
       "id": 19,
       "grade": 2,
-      "title": "Bài đọc 19: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 2",
       "sentences": [
-        "Sáng nay, Khoa đến góc đọc sách.",
-        "Khoa mang theo a lunch box.",
-        "Trời nắng.",
-        "Khoa thấy một chiếc hộp nhỏ ở gần đó.",
-        "Bạn ấy looked at the old picture.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Khoa vui vẻ trở về nhà."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "góc đọc sách",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -1418,45 +1760,63 @@ window.HUB_DATA = {
     {
       "id": 20,
       "grade": 2,
-      "title": "Bài đọc 20: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 2",
       "sentences": [
-        "Sáng nay, Trang đến trường học.",
-        "Trang mang theo a small camera.",
-        "Trời mát.",
-        "Trang thấy một bông hoa ở gần đó.",
-        "Bạn ấy watered the plant.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Trang vui vẻ trở về nhà."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "trường học",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
@@ -1465,45 +1825,63 @@ window.HUB_DATA = {
     {
       "id": 21,
       "grade": 3,
-      "title": "Bài đọc 21: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 3",
       "sentences": [
-        "Sáng nay, Lan đến thư viện.",
-        "Lan mang theo a little notebook.",
-        "Mưa nhỏ.",
-        "Lan thấy một chiếc khăn ở gần đó.",
-        "Bạn ấy carried the backpack.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Lan vui vẻ trở về nhà."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "thư viện",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -1512,45 +1890,63 @@ window.HUB_DATA = {
     {
       "id": 22,
       "grade": 3,
-      "title": "Bài đọc 22: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 3",
       "sentences": [
-        "Sáng nay, Minh đến khu vườn.",
-        "Minh mang theo a blue kite.",
-        "Gió nhẹ.",
-        "Minh thấy một tấm ảnh ở gần đó.",
-        "Bạn ấy read the storybook.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Minh vui vẻ trở về nhà."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "khu vườn",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -1559,45 +1955,63 @@ window.HUB_DATA = {
     {
       "id": 23,
       "grade": 3,
-      "title": "Bài đọc 23: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 3",
       "sentences": [
-        "Sáng nay, An đến sân nhà.",
-        "An mang theo a red umbrella.",
-        "Trời nắng.",
-        "An thấy một quyển sách ở gần đó.",
-        "Bạn ấy cleaned the classroom.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, An vui vẻ trở về nhà."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "sân nhà",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -1606,45 +2020,63 @@ window.HUB_DATA = {
     {
       "id": 24,
       "grade": 3,
-      "title": "Bài đọc 24: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 3",
       "sentences": [
-        "Sáng nay, Mai đến bảo tàng.",
-        "Mai mang theo a small plant.",
-        "Trời mát.",
-        "Mai thấy một chiếc bút chì ở gần đó.",
-        "Bạn ấy flew the kite.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Mai vui vẻ trở về nhà."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "bảo tàng",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -1653,45 +2085,63 @@ window.HUB_DATA = {
     {
       "id": 25,
       "grade": 3,
-      "title": "Bài đọc 25: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 3",
       "sentences": [
-        "Sáng nay, Nam đến bờ sông.",
-        "Nam mang theo a yellow backpack.",
-        "Có mây nhẹ.",
-        "Nam thấy một chiếc lá xanh ở gần đó.",
-        "Bạn ấy rode the bicycle.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Nam vui vẻ trở về nhà."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "bờ sông",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -1700,45 +2150,63 @@ window.HUB_DATA = {
     {
       "id": 26,
       "grade": 3,
-      "title": "Bài đọc 26: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 3",
       "sentences": [
-        "Sáng nay, Linh đến lớp học.",
-        "Linh mang theo a paper boat.",
-        "Mưa nhỏ.",
-        "Linh thấy một quả bóng ở gần đó.",
-        "Bạn ấy folded the paper boat.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Linh vui vẻ trở về nhà."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "lớp học",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -1747,45 +2215,63 @@ window.HUB_DATA = {
     {
       "id": 27,
       "grade": 3,
-      "title": "Bài đọc 27: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 3",
       "sentences": [
-        "Sáng nay, Huy đến khu phố.",
-        "Huy mang theo a new bicycle.",
-        "Gió nhẹ.",
-        "Huy thấy một chiếc hộp nhỏ ở gần đó.",
-        "Bạn ấy shared the lunch.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Huy vui vẻ trở về nhà."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "khu phố",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -1794,45 +2280,63 @@ window.HUB_DATA = {
     {
       "id": 28,
       "grade": 3,
-      "title": "Bài đọc 28: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 3",
       "sentences": [
-        "Sáng nay, Vy đến góc đọc sách.",
-        "Vy mang theo a storybook.",
-        "Trời nắng.",
-        "Vy thấy một bông hoa ở gần đó.",
-        "Bạn ấy looked at the old picture.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Vy vui vẻ trở về nhà."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "góc đọc sách",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -1841,45 +2345,63 @@ window.HUB_DATA = {
     {
       "id": 29,
       "grade": 3,
-      "title": "Bài đọc 29: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 3",
       "sentences": [
-        "Sáng nay, Khoa đến trường học.",
-        "Khoa mang theo a lunch box.",
-        "Trời mát.",
-        "Khoa thấy một chiếc khăn ở gần đó.",
-        "Bạn ấy watered the plant.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Khoa vui vẻ trở về nhà."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "trường học",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -1888,45 +2410,63 @@ window.HUB_DATA = {
     {
       "id": 30,
       "grade": 3,
-      "title": "Bài đọc 30: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 3",
       "sentences": [
-        "Sáng nay, Trang đến công viên.",
-        "Trang mang theo a small camera.",
-        "Có mây nhẹ.",
-        "Trang thấy một tấm ảnh ở gần đó.",
-        "Bạn ấy opened the notebook.",
-        "Một người bạn đi cùng và mỉm cười.",
-        "Hai bạn cùng giữ gìn nơi này sạch sẽ.",
-        "Cuối buổi, Trang vui vẻ trở về nhà."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "công viên",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
@@ -1935,45 +2475,64 @@ window.HUB_DATA = {
     {
       "id": 31,
       "grade": 4,
-      "title": "Bài đọc 31: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 4",
       "sentences": [
-        "Cuối tuần, Lan đến khu vườn để làm một việc nhỏ.",
-        "Bạn mang theo a little notebook và một chai nước.",
-        "Thời tiết hôm đó gió nhẹ.",
-        "Trên đường đi, Lan nhìn thấy một quyển sách bên cạnh lối vào.",
-        "Bạn quyết định read the storybook để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Lan nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "khu vườn",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -1982,45 +2541,64 @@ window.HUB_DATA = {
     {
       "id": 32,
       "grade": 4,
-      "title": "Bài đọc 32: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 4",
       "sentences": [
-        "Cuối tuần, Minh đến sân nhà để làm một việc nhỏ.",
-        "Bạn mang theo a blue kite và một chai nước.",
-        "Thời tiết hôm đó trời nắng.",
-        "Trên đường đi, Minh nhìn thấy một chiếc bút chì bên cạnh lối vào.",
-        "Bạn quyết định cleaned the classroom để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Minh nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "sân nhà",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -2029,45 +2607,64 @@ window.HUB_DATA = {
     {
       "id": 33,
       "grade": 4,
-      "title": "Bài đọc 33: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 4",
       "sentences": [
-        "Cuối tuần, An đến bảo tàng để làm một việc nhỏ.",
-        "Bạn mang theo a red umbrella và một chai nước.",
-        "Thời tiết hôm đó trời mát.",
-        "Trên đường đi, An nhìn thấy một chiếc lá xanh bên cạnh lối vào.",
-        "Bạn quyết định flew the kite để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, An nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "bảo tàng",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -2076,45 +2673,64 @@ window.HUB_DATA = {
     {
       "id": 34,
       "grade": 4,
-      "title": "Bài đọc 34: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 4",
       "sentences": [
-        "Cuối tuần, Mai đến bờ sông để làm một việc nhỏ.",
-        "Bạn mang theo a small plant và một chai nước.",
-        "Thời tiết hôm đó có mây nhẹ.",
-        "Trên đường đi, Mai nhìn thấy một quả bóng bên cạnh lối vào.",
-        "Bạn quyết định rode the bicycle để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Mai nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "bờ sông",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -2123,45 +2739,64 @@ window.HUB_DATA = {
     {
       "id": 35,
       "grade": 4,
-      "title": "Bài đọc 35: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 4",
       "sentences": [
-        "Cuối tuần, Nam đến lớp học để làm một việc nhỏ.",
-        "Bạn mang theo a yellow backpack và một chai nước.",
-        "Thời tiết hôm đó mưa nhỏ.",
-        "Trên đường đi, Nam nhìn thấy một chiếc hộp nhỏ bên cạnh lối vào.",
-        "Bạn quyết định folded the paper boat để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Nam nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "lớp học",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -2170,45 +2805,64 @@ window.HUB_DATA = {
     {
       "id": 36,
       "grade": 4,
-      "title": "Bài đọc 36: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 4",
       "sentences": [
-        "Cuối tuần, Linh đến khu phố để làm một việc nhỏ.",
-        "Bạn mang theo a paper boat và một chai nước.",
-        "Thời tiết hôm đó gió nhẹ.",
-        "Trên đường đi, Linh nhìn thấy một bông hoa bên cạnh lối vào.",
-        "Bạn quyết định shared the lunch để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Linh nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "khu phố",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -2217,45 +2871,64 @@ window.HUB_DATA = {
     {
       "id": 37,
       "grade": 4,
-      "title": "Bài đọc 37: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 4",
       "sentences": [
-        "Cuối tuần, Huy đến góc đọc sách để làm một việc nhỏ.",
-        "Bạn mang theo a new bicycle và một chai nước.",
-        "Thời tiết hôm đó trời nắng.",
-        "Trên đường đi, Huy nhìn thấy một chiếc khăn bên cạnh lối vào.",
-        "Bạn quyết định looked at the old picture để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Huy nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "góc đọc sách",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -2264,45 +2937,64 @@ window.HUB_DATA = {
     {
       "id": 38,
       "grade": 4,
-      "title": "Bài đọc 38: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 4",
       "sentences": [
-        "Cuối tuần, Vy đến trường học để làm một việc nhỏ.",
-        "Bạn mang theo a storybook và một chai nước.",
-        "Thời tiết hôm đó trời mát.",
-        "Trên đường đi, Vy nhìn thấy một tấm ảnh bên cạnh lối vào.",
-        "Bạn quyết định watered the plant để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Vy nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "trường học",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -2311,45 +3003,64 @@ window.HUB_DATA = {
     {
       "id": 39,
       "grade": 4,
-      "title": "Bài đọc 39: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 4",
       "sentences": [
-        "Cuối tuần, Khoa đến công viên để làm một việc nhỏ.",
-        "Bạn mang theo a lunch box và một chai nước.",
-        "Thời tiết hôm đó có mây nhẹ.",
-        "Trên đường đi, Khoa nhìn thấy một quyển sách bên cạnh lối vào.",
-        "Bạn quyết định opened the notebook để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Khoa nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "công viên",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -2358,45 +3069,64 @@ window.HUB_DATA = {
     {
       "id": 40,
       "grade": 4,
-      "title": "Bài đọc 40: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 4",
       "sentences": [
-        "Cuối tuần, Trang đến thư viện để làm một việc nhỏ.",
-        "Bạn mang theo a small camera và một chai nước.",
-        "Thời tiết hôm đó mưa nhỏ.",
-        "Trên đường đi, Trang nhìn thấy một chiếc bút chì bên cạnh lối vào.",
-        "Bạn quyết định carried the backpack để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Trang nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "thư viện",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
@@ -2405,45 +3135,64 @@ window.HUB_DATA = {
     {
       "id": 41,
       "grade": 5,
-      "title": "Bài đọc 41: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 5",
       "sentences": [
-        "Cuối tuần, Lan đến sân nhà để làm một việc nhỏ.",
-        "Bạn mang theo a little notebook và một chai nước.",
-        "Thời tiết hôm đó trời nắng.",
-        "Trên đường đi, Lan nhìn thấy một chiếc lá xanh bên cạnh lối vào.",
-        "Bạn quyết định cleaned the classroom để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Lan nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "sân nhà",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -2452,45 +3201,64 @@ window.HUB_DATA = {
     {
       "id": 42,
       "grade": 5,
-      "title": "Bài đọc 42: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 5",
       "sentences": [
-        "Cuối tuần, Minh đến bảo tàng để làm một việc nhỏ.",
-        "Bạn mang theo a blue kite và một chai nước.",
-        "Thời tiết hôm đó trời mát.",
-        "Trên đường đi, Minh nhìn thấy một quả bóng bên cạnh lối vào.",
-        "Bạn quyết định flew the kite để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Minh nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "bảo tàng",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -2499,45 +3267,64 @@ window.HUB_DATA = {
     {
       "id": 43,
       "grade": 5,
-      "title": "Bài đọc 43: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 5",
       "sentences": [
-        "Cuối tuần, An đến bờ sông để làm một việc nhỏ.",
-        "Bạn mang theo a red umbrella và một chai nước.",
-        "Thời tiết hôm đó có mây nhẹ.",
-        "Trên đường đi, An nhìn thấy một chiếc hộp nhỏ bên cạnh lối vào.",
-        "Bạn quyết định rode the bicycle để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, An nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "bờ sông",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -2546,45 +3333,64 @@ window.HUB_DATA = {
     {
       "id": 44,
       "grade": 5,
-      "title": "Bài đọc 44: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 5",
       "sentences": [
-        "Cuối tuần, Mai đến lớp học để làm một việc nhỏ.",
-        "Bạn mang theo a small plant và một chai nước.",
-        "Thời tiết hôm đó mưa nhỏ.",
-        "Trên đường đi, Mai nhìn thấy một bông hoa bên cạnh lối vào.",
-        "Bạn quyết định folded the paper boat để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Mai nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "lớp học",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -2593,45 +3399,64 @@ window.HUB_DATA = {
     {
       "id": 45,
       "grade": 5,
-      "title": "Bài đọc 45: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 5",
       "sentences": [
-        "Cuối tuần, Nam đến khu phố để làm một việc nhỏ.",
-        "Bạn mang theo a yellow backpack và một chai nước.",
-        "Thời tiết hôm đó gió nhẹ.",
-        "Trên đường đi, Nam nhìn thấy một chiếc khăn bên cạnh lối vào.",
-        "Bạn quyết định shared the lunch để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Nam nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "khu phố",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -2640,45 +3465,64 @@ window.HUB_DATA = {
     {
       "id": 46,
       "grade": 5,
-      "title": "Bài đọc 46: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 5",
       "sentences": [
-        "Cuối tuần, Linh đến góc đọc sách để làm một việc nhỏ.",
-        "Bạn mang theo a paper boat và một chai nước.",
-        "Thời tiết hôm đó trời nắng.",
-        "Trên đường đi, Linh nhìn thấy một tấm ảnh bên cạnh lối vào.",
-        "Bạn quyết định looked at the old picture để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Linh nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "góc đọc sách",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -2687,45 +3531,64 @@ window.HUB_DATA = {
     {
       "id": 47,
       "grade": 5,
-      "title": "Bài đọc 47: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 5",
       "sentences": [
-        "Cuối tuần, Huy đến trường học để làm một việc nhỏ.",
-        "Bạn mang theo a new bicycle và một chai nước.",
-        "Thời tiết hôm đó trời mát.",
-        "Trên đường đi, Huy nhìn thấy một quyển sách bên cạnh lối vào.",
-        "Bạn quyết định watered the plant để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Huy nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "trường học",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -2734,45 +3597,64 @@ window.HUB_DATA = {
     {
       "id": 48,
       "grade": 5,
-      "title": "Bài đọc 48: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 5",
       "sentences": [
-        "Cuối tuần, Vy đến công viên để làm một việc nhỏ.",
-        "Bạn mang theo a storybook và một chai nước.",
-        "Thời tiết hôm đó có mây nhẹ.",
-        "Trên đường đi, Vy nhìn thấy một chiếc bút chì bên cạnh lối vào.",
-        "Bạn quyết định opened the notebook để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Vy nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "công viên",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -2781,45 +3663,64 @@ window.HUB_DATA = {
     {
       "id": 49,
       "grade": 5,
-      "title": "Bài đọc 49: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 5",
       "sentences": [
-        "Cuối tuần, Khoa đến thư viện để làm một việc nhỏ.",
-        "Bạn mang theo a lunch box và một chai nước.",
-        "Thời tiết hôm đó mưa nhỏ.",
-        "Trên đường đi, Khoa nhìn thấy một chiếc lá xanh bên cạnh lối vào.",
-        "Bạn quyết định carried the backpack để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Khoa nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "thư viện",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -2828,45 +3729,64 @@ window.HUB_DATA = {
     {
       "id": 50,
       "grade": 5,
-      "title": "Bài đọc 50: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 5",
       "sentences": [
-        "Cuối tuần, Trang đến khu vườn để làm một việc nhỏ.",
-        "Bạn mang theo a small camera và một chai nước.",
-        "Thời tiết hôm đó gió nhẹ.",
-        "Trên đường đi, Trang nhìn thấy một quả bóng bên cạnh lối vào.",
-        "Bạn quyết định read the storybook để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Trang nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "khu vườn",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
@@ -2875,45 +3795,64 @@ window.HUB_DATA = {
     {
       "id": 51,
       "grade": 6,
-      "title": "Bài đọc 51: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 6",
       "sentences": [
-        "Cuối tuần, Lan đến bảo tàng để làm một việc nhỏ.",
-        "Bạn mang theo a little notebook và một chai nước.",
-        "Thời tiết hôm đó trời mát.",
-        "Trên đường đi, Lan nhìn thấy một chiếc hộp nhỏ bên cạnh lối vào.",
-        "Bạn quyết định flew the kite để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Lan nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "bảo tàng",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -2922,45 +3861,64 @@ window.HUB_DATA = {
     {
       "id": 52,
       "grade": 6,
-      "title": "Bài đọc 52: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 6",
       "sentences": [
-        "Cuối tuần, Minh đến bờ sông để làm một việc nhỏ.",
-        "Bạn mang theo a blue kite và một chai nước.",
-        "Thời tiết hôm đó có mây nhẹ.",
-        "Trên đường đi, Minh nhìn thấy một bông hoa bên cạnh lối vào.",
-        "Bạn quyết định rode the bicycle để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Minh nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "bờ sông",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -2969,45 +3927,64 @@ window.HUB_DATA = {
     {
       "id": 53,
       "grade": 6,
-      "title": "Bài đọc 53: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 6",
       "sentences": [
-        "Cuối tuần, An đến lớp học để làm một việc nhỏ.",
-        "Bạn mang theo a red umbrella và một chai nước.",
-        "Thời tiết hôm đó mưa nhỏ.",
-        "Trên đường đi, An nhìn thấy một chiếc khăn bên cạnh lối vào.",
-        "Bạn quyết định folded the paper boat để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, An nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "lớp học",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -3016,45 +3993,64 @@ window.HUB_DATA = {
     {
       "id": 54,
       "grade": 6,
-      "title": "Bài đọc 54: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 6",
       "sentences": [
-        "Cuối tuần, Mai đến khu phố để làm một việc nhỏ.",
-        "Bạn mang theo a small plant và một chai nước.",
-        "Thời tiết hôm đó gió nhẹ.",
-        "Trên đường đi, Mai nhìn thấy một tấm ảnh bên cạnh lối vào.",
-        "Bạn quyết định shared the lunch để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Mai nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "khu phố",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -3063,45 +4059,64 @@ window.HUB_DATA = {
     {
       "id": 55,
       "grade": 6,
-      "title": "Bài đọc 55: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 6",
       "sentences": [
-        "Cuối tuần, Nam đến góc đọc sách để làm một việc nhỏ.",
-        "Bạn mang theo a yellow backpack và một chai nước.",
-        "Thời tiết hôm đó trời nắng.",
-        "Trên đường đi, Nam nhìn thấy một quyển sách bên cạnh lối vào.",
-        "Bạn quyết định looked at the old picture để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Nam nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "góc đọc sách",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -3110,45 +4125,64 @@ window.HUB_DATA = {
     {
       "id": 56,
       "grade": 6,
-      "title": "Bài đọc 56: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 6",
       "sentences": [
-        "Cuối tuần, Linh đến trường học để làm một việc nhỏ.",
-        "Bạn mang theo a paper boat và một chai nước.",
-        "Thời tiết hôm đó trời mát.",
-        "Trên đường đi, Linh nhìn thấy một chiếc bút chì bên cạnh lối vào.",
-        "Bạn quyết định watered the plant để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Linh nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "trường học",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -3157,45 +4191,64 @@ window.HUB_DATA = {
     {
       "id": 57,
       "grade": 6,
-      "title": "Bài đọc 57: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 6",
       "sentences": [
-        "Cuối tuần, Huy đến công viên để làm một việc nhỏ.",
-        "Bạn mang theo a new bicycle và một chai nước.",
-        "Thời tiết hôm đó có mây nhẹ.",
-        "Trên đường đi, Huy nhìn thấy một chiếc lá xanh bên cạnh lối vào.",
-        "Bạn quyết định opened the notebook để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Huy nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "công viên",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -3204,45 +4257,64 @@ window.HUB_DATA = {
     {
       "id": 58,
       "grade": 6,
-      "title": "Bài đọc 58: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 6",
       "sentences": [
-        "Cuối tuần, Vy đến thư viện để làm một việc nhỏ.",
-        "Bạn mang theo a storybook và một chai nước.",
-        "Thời tiết hôm đó mưa nhỏ.",
-        "Trên đường đi, Vy nhìn thấy một quả bóng bên cạnh lối vào.",
-        "Bạn quyết định carried the backpack để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Vy nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "thư viện",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -3251,45 +4323,64 @@ window.HUB_DATA = {
     {
       "id": 59,
       "grade": 6,
-      "title": "Bài đọc 59: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 6",
       "sentences": [
-        "Cuối tuần, Khoa đến khu vườn để làm một việc nhỏ.",
-        "Bạn mang theo a lunch box và một chai nước.",
-        "Thời tiết hôm đó gió nhẹ.",
-        "Trên đường đi, Khoa nhìn thấy một chiếc hộp nhỏ bên cạnh lối vào.",
-        "Bạn quyết định read the storybook để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Khoa nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "khu vườn",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -3298,45 +4389,64 @@ window.HUB_DATA = {
     {
       "id": 60,
       "grade": 6,
-      "title": "Bài đọc 60: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 6",
       "sentences": [
-        "Cuối tuần, Trang đến sân nhà để làm một việc nhỏ.",
-        "Bạn mang theo a small camera và một chai nước.",
-        "Thời tiết hôm đó trời nắng.",
-        "Trên đường đi, Trang nhìn thấy một bông hoa bên cạnh lối vào.",
-        "Bạn quyết định cleaned the classroom để giúp mọi người.",
-        "Sau đó, một người bạn đến và đề nghị cùng làm.",
-        "Hai bạn vừa làm vừa trao đổi cách hoàn thành công việc tốt hơn.",
-        "Khi ra về, Trang nhận ra rằng một hành động nhỏ cũng có thể tạo ra thay đổi tích cực."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "sân nhà",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
@@ -3345,45 +4455,65 @@ window.HUB_DATA = {
     {
       "id": 61,
       "grade": 7,
-      "title": "Bài đọc 61: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng có mây nhẹ, Lan quyết định đến bờ sông để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a little notebook cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Lan phát hiện một chiếc khăn và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động rode the bicycle và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Lan tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Lan nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "bờ sông",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -3392,45 +4522,65 @@ window.HUB_DATA = {
     {
       "id": 62,
       "grade": 7,
-      "title": "Bài đọc 62: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng mưa nhỏ, Minh quyết định đến lớp học để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a blue kite cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Minh phát hiện một tấm ảnh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động folded the paper boat và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Minh tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Minh nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "lớp học",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -3439,45 +4589,65 @@ window.HUB_DATA = {
     {
       "id": 63,
       "grade": 7,
-      "title": "Bài đọc 63: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng gió nhẹ, An quyết định đến khu phố để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a red umbrella cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, An phát hiện một quyển sách và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động shared the lunch và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng An tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, An nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "khu phố",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -3486,45 +4656,65 @@ window.HUB_DATA = {
     {
       "id": 64,
       "grade": 7,
-      "title": "Bài đọc 64: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng trời nắng, Mai quyết định đến góc đọc sách để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a small plant cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Mai phát hiện một chiếc bút chì và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động looked at the old picture và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Mai tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Mai nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "góc đọc sách",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -3533,45 +4723,65 @@ window.HUB_DATA = {
     {
       "id": 65,
       "grade": 7,
-      "title": "Bài đọc 65: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng trời mát, Nam quyết định đến trường học để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a yellow backpack cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Nam phát hiện một chiếc lá xanh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động watered the plant và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Nam tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Nam nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "trường học",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -3580,45 +4790,65 @@ window.HUB_DATA = {
     {
       "id": 66,
       "grade": 7,
-      "title": "Bài đọc 66: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng có mây nhẹ, Linh quyết định đến công viên để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a paper boat cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Linh phát hiện một quả bóng và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động opened the notebook và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Linh tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Linh nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "công viên",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -3627,45 +4857,65 @@ window.HUB_DATA = {
     {
       "id": 67,
       "grade": 7,
-      "title": "Bài đọc 67: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng mưa nhỏ, Huy quyết định đến thư viện để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a new bicycle cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Huy phát hiện một chiếc hộp nhỏ và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động carried the backpack và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Huy tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Huy nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "thư viện",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -3674,45 +4924,65 @@ window.HUB_DATA = {
     {
       "id": 68,
       "grade": 7,
-      "title": "Bài đọc 68: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng gió nhẹ, Vy quyết định đến khu vườn để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a storybook cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Vy phát hiện một bông hoa và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động read the storybook và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Vy tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Vy nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "khu vườn",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -3721,45 +4991,65 @@ window.HUB_DATA = {
     {
       "id": 69,
       "grade": 7,
-      "title": "Bài đọc 69: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng trời nắng, Khoa quyết định đến sân nhà để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a lunch box cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Khoa phát hiện một chiếc khăn và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động cleaned the classroom và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Khoa tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Khoa nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "sân nhà",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -3768,45 +5058,65 @@ window.HUB_DATA = {
     {
       "id": 70,
       "grade": 7,
-      "title": "Bài đọc 70: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 7",
       "sentences": [
-        "Vào một buổi sáng trời mát, Trang quyết định đến bảo tàng để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a small camera cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Trang phát hiện một tấm ảnh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động flew the kite và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Trang tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Trang nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "bảo tàng",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
@@ -3815,45 +5125,65 @@ window.HUB_DATA = {
     {
       "id": 71,
       "grade": 8,
-      "title": "Bài đọc 71: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng mưa nhỏ, Lan quyết định đến lớp học để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a little notebook cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Lan phát hiện một quyển sách và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động folded the paper boat và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Lan tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Lan nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "lớp học",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -3862,45 +5192,65 @@ window.HUB_DATA = {
     {
       "id": 72,
       "grade": 8,
-      "title": "Bài đọc 72: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng gió nhẹ, Minh quyết định đến khu phố để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a blue kite cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Minh phát hiện một chiếc bút chì và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động shared the lunch và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Minh tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Minh nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "khu phố",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -3909,45 +5259,65 @@ window.HUB_DATA = {
     {
       "id": 73,
       "grade": 8,
-      "title": "Bài đọc 73: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng trời nắng, An quyết định đến góc đọc sách để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a red umbrella cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, An phát hiện một chiếc lá xanh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động looked at the old picture và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng An tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, An nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "góc đọc sách",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -3956,45 +5326,65 @@ window.HUB_DATA = {
     {
       "id": 74,
       "grade": 8,
-      "title": "Bài đọc 74: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng trời mát, Mai quyết định đến trường học để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a small plant cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Mai phát hiện một quả bóng và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động watered the plant và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Mai tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Mai nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "trường học",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -4003,45 +5393,65 @@ window.HUB_DATA = {
     {
       "id": 75,
       "grade": 8,
-      "title": "Bài đọc 75: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng có mây nhẹ, Nam quyết định đến công viên để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a yellow backpack cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Nam phát hiện một chiếc hộp nhỏ và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động opened the notebook và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Nam tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Nam nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "công viên",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -4050,45 +5460,65 @@ window.HUB_DATA = {
     {
       "id": 76,
       "grade": 8,
-      "title": "Bài đọc 76: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng mưa nhỏ, Linh quyết định đến thư viện để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a paper boat cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Linh phát hiện một bông hoa và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động carried the backpack và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Linh tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Linh nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "thư viện",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -4097,45 +5527,65 @@ window.HUB_DATA = {
     {
       "id": 77,
       "grade": 8,
-      "title": "Bài đọc 77: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng gió nhẹ, Huy quyết định đến khu vườn để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a new bicycle cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Huy phát hiện một chiếc khăn và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động read the storybook và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Huy tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Huy nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "khu vườn",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -4144,45 +5594,65 @@ window.HUB_DATA = {
     {
       "id": 78,
       "grade": 8,
-      "title": "Bài đọc 78: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng trời nắng, Vy quyết định đến sân nhà để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a storybook cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Vy phát hiện một tấm ảnh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động cleaned the classroom và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Vy tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Vy nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "sân nhà",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -4191,45 +5661,65 @@ window.HUB_DATA = {
     {
       "id": 79,
       "grade": 8,
-      "title": "Bài đọc 79: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng trời mát, Khoa quyết định đến bảo tàng để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a lunch box cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Khoa phát hiện một quyển sách và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động flew the kite và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Khoa tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Khoa nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "bảo tàng",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -4238,45 +5728,65 @@ window.HUB_DATA = {
     {
       "id": 80,
       "grade": 8,
-      "title": "Bài đọc 80: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 8",
       "sentences": [
-        "Vào một buổi sáng có mây nhẹ, Trang quyết định đến bờ sông để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a small camera cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Trang phát hiện một chiếc bút chì và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động rode the bicycle và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Trang tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Trang nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "bờ sông",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
@@ -4285,45 +5795,66 @@ window.HUB_DATA = {
     {
       "id": 81,
       "grade": 9,
-      "title": "Bài đọc 81: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng gió nhẹ, Lan quyết định đến khu phố để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a little notebook cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Lan phát hiện một chiếc lá xanh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động shared the lunch và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Lan tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Lan nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "khu phố",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -4332,45 +5863,66 @@ window.HUB_DATA = {
     {
       "id": 82,
       "grade": 9,
-      "title": "Bài đọc 82: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng trời nắng, Minh quyết định đến góc đọc sách để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a blue kite cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Minh phát hiện một quả bóng và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động looked at the old picture và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Minh tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Minh nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "góc đọc sách",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -4379,45 +5931,66 @@ window.HUB_DATA = {
     {
       "id": 83,
       "grade": 9,
-      "title": "Bài đọc 83: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng trời mát, An quyết định đến trường học để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a red umbrella cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, An phát hiện một chiếc hộp nhỏ và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động watered the plant và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng An tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, An nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "trường học",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -4426,45 +5999,66 @@ window.HUB_DATA = {
     {
       "id": 84,
       "grade": 9,
-      "title": "Bài đọc 84: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng có mây nhẹ, Mai quyết định đến công viên để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a small plant cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Mai phát hiện một bông hoa và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động opened the notebook và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Mai tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Mai nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "công viên",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -4473,45 +6067,66 @@ window.HUB_DATA = {
     {
       "id": 85,
       "grade": 9,
-      "title": "Bài đọc 85: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng mưa nhỏ, Nam quyết định đến thư viện để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a yellow backpack cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Nam phát hiện một chiếc khăn và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động carried the backpack và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Nam tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Nam nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "thư viện",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -4520,45 +6135,66 @@ window.HUB_DATA = {
     {
       "id": 86,
       "grade": 9,
-      "title": "Bài đọc 86: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng gió nhẹ, Linh quyết định đến khu vườn để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a paper boat cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Linh phát hiện một tấm ảnh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động read the storybook và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Linh tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Linh nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "khu vườn",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -4567,45 +6203,66 @@ window.HUB_DATA = {
     {
       "id": 87,
       "grade": 9,
-      "title": "Bài đọc 87: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng trời nắng, Huy quyết định đến sân nhà để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a new bicycle cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Huy phát hiện một quyển sách và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động cleaned the classroom và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Huy tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Huy nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "sân nhà",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -4614,45 +6271,66 @@ window.HUB_DATA = {
     {
       "id": 88,
       "grade": 9,
-      "title": "Bài đọc 88: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng trời mát, Vy quyết định đến bảo tàng để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a storybook cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Vy phát hiện một chiếc bút chì và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động flew the kite và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Vy tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Vy nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "bảo tàng",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -4661,45 +6339,66 @@ window.HUB_DATA = {
     {
       "id": 89,
       "grade": 9,
-      "title": "Bài đọc 89: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng có mây nhẹ, Khoa quyết định đến bờ sông để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a lunch box cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Khoa phát hiện một chiếc lá xanh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động rode the bicycle và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Khoa tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Khoa nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "bờ sông",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -4708,45 +6407,66 @@ window.HUB_DATA = {
     {
       "id": 90,
       "grade": 9,
-      "title": "Bài đọc 90: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 9",
       "sentences": [
-        "Vào một buổi sáng mưa nhỏ, Trang quyết định đến lớp học để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a small camera cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Trang phát hiện một quả bóng và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động folded the paper boat và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Trang tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Trang nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "lớp học",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
@@ -4755,45 +6475,66 @@ window.HUB_DATA = {
     {
       "id": 91,
       "grade": 10,
-      "title": "Bài đọc 91: Lan và một việc nhỏ",
+      "title": "Thỏ và Rùa — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng trời nắng, Lan quyết định đến góc đọc sách để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a little notebook cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Lan phát hiện một chiếc hộp nhỏ và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động looked at the old picture và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Lan tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Lan nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, trong một khu rừng xanh, Thỏ và Rùa sống gần nhau.",
+        "Thỏ chạy rất nhanh nên thường tự hào về đôi chân của mình.",
+        "Rùa đi chậm nhưng luôn kiên trì bước từng bước chắc chắn.",
+        "Một hôm, Thỏ cười và chê Rùa đi quá chậm.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Rùa bình tĩnh đề nghị hai bạn thi chạy đến gốc cây cổ thụ.",
+        "Các con vật trong rừng cùng đến xem cuộc đua.",
+        "Khi cuộc đua bắt đầu, Thỏ lao đi rất nhanh.",
+        "Rùa vẫn đều đặn bước trên con đường đầy lá khô.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chạy được một đoạn, Thỏ nghĩ mình còn rất nhiều thời gian.",
+        "Thỏ nằm dưới một gốc cây rồi ngủ quên lúc nào không hay.",
+        "Rùa không dừng lại và cứ kiên nhẫn tiến về phía trước.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Khi Thỏ tỉnh dậy, Rùa đã gần đến đích.",
+        "Thỏ vội vàng chạy nhưng không kịp nữa.",
+        "Rùa về đích trước và được mọi người chúc mừng.",
+        "Thỏ hiểu rằng nhanh nhẹn mà chủ quan cũng có thể thất bại.",
+        "Câu chuyện nhắc chúng ta phải kiên trì và không nên coi thường người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai chạy nhanh hơn?",
           "options": [
-            "góc đọc sách",
-            "khu vườn",
-            "bảo tàng",
-            "lớp học"
+            "Thỏ",
+            "Rùa",
+            "Cả hai như nhau",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Rùa có đặc điểm gì?",
           "options": [
-            "a little notebook",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Kiên trì",
+            "Hay ngủ",
+            "Thích khoe khoang",
+            "Không chịu đi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Thỏ thua?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Thỏ ngủ quên",
+            "Thỏ bị lạc",
+            "Thỏ không chạy",
+            "Thỏ quên đường"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện nhắc điều gì?",
+          "options": [
+            "Kiên trì và không chủ quan",
+            "Chỉ cần chạy thật nhanh",
+            "Nên coi thường người khác",
+            "Không cần cố gắng"
           ],
           "answer": 0
         }
@@ -4802,45 +6543,66 @@ window.HUB_DATA = {
     {
       "id": 92,
       "grade": 10,
-      "title": "Bài đọc 92: Minh và một việc nhỏ",
+      "title": "Quạ và Cáo — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng trời mát, Minh quyết định đến trường học để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a blue kite cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Minh phát hiện một bông hoa và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động watered the plant và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Minh tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Minh nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một buổi sáng, Quạ tìm được một miếng thức ăn và đậu trên cành cây.",
+        "Cáo đi ngang qua và nhìn thấy miếng thức ăn trong mỏ Quạ.",
+        "Cáo muốn lấy thức ăn nên nghĩ cách nói lời ngon ngọt.",
+        "Cáo khen bộ lông của Quạ rất đẹp.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Quạ nghe vậy thì thấy trong lòng rất vui.",
+        "Cáo lại nói rằng nếu Quạ có giọng hát hay thì chắc chắn sẽ rất tuyệt.",
+        "Quạ muốn chứng tỏ mình có giọng hát hay.",
+        "Quạ mở mỏ cất tiếng kêu.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Miếng thức ăn lập tức rơi xuống đất.",
+        "Cáo nhanh chóng nhặt lấy miếng thức ăn.",
+        "Quạ nhận ra mình đã bị lời khen làm cho mất cảnh giác.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Cáo bỏ đi còn Quạ ngồi buồn trên cành cây.",
+        "Quạ tự nhắc mình phải suy nghĩ trước khi tin lời người khác.",
+        "Từ hôm đó, Quạ luôn cẩn thận trước những lời nịnh nọt.",
+        "Câu chuyện nhắc chúng ta không nên quá tin vào lời khen.",
+        "Biết lắng nghe và suy xét sẽ giúp chúng ta tránh được nhiều sai lầm."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Quạ đang ngậm gì?",
           "options": [
-            "trường học",
-            "sân nhà",
-            "bờ sông",
-            "khu phố"
+            "Miếng thức ăn",
+            "Một hòn đá",
+            "Một chiếc lá",
+            "Một cành cây"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cáo muốn làm gì?",
           "options": [
-            "a blue kite",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Lấy thức ăn",
+            "Giúp Quạ",
+            "Tìm nước",
+            "Ngủ dưới gốc cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao thức ăn rơi xuống?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Quạ mở mỏ",
+            "Gió thổi",
+            "Cáo lấy mất",
+            "Quạ làm rơi bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học chính là gì?",
+          "options": [
+            "Không nên quá tin lời nịnh nọt",
+            "Phải luôn khen người khác",
+            "Cứ tin mọi lời khen",
+            "Không được nói chuyện"
           ],
           "answer": 0
         }
@@ -4849,45 +6611,66 @@ window.HUB_DATA = {
     {
       "id": 93,
       "grade": 10,
-      "title": "Bài đọc 93: An và một việc nhỏ",
+      "title": "Kiến và Châu Chấu — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng có mây nhẹ, An quyết định đến công viên để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a red umbrella cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, An phát hiện một chiếc khăn và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động opened the notebook và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng An tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, An nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Mùa hè đến, đàn Kiến chăm chỉ làm việc từ sáng đến chiều.",
+        "Các chú Kiến tha từng hạt thức ăn về tổ.",
+        "Châu Chấu nhìn thấy vậy thì cười và bảo Kiến cứ vui chơi đi.",
+        "Kiến vẫn tiếp tục chuẩn bị thức ăn cho những ngày lạnh.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Châu Chấu dành phần lớn thời gian để ca hát và nhảy múa.",
+        "Ngày tháng trôi qua, mùa đông bắt đầu đến.",
+        "Gió lạnh thổi qua cánh đồng và thức ăn ngày càng khan hiếm.",
+        "Châu Chấu không có thức ăn dự trữ nên rất lo lắng.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Châu Chấu tìm đến tổ Kiến để xin giúp đỡ.",
+        "Kiến hỏi Châu Chấu đã làm gì trong suốt mùa hè.",
+        "Châu Chấu xấu hổ vì trước đây mình chỉ mải chơi.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Kiến nhắc Châu Chấu rằng mỗi người cần biết chuẩn bị cho ngày mai.",
+        "Kiến vẫn chia sẻ một phần thức ăn và khuyên Châu Chấu thay đổi.",
+        "Châu Chấu cảm ơn đàn Kiến và quyết tâm chăm chỉ hơn.",
+        "Từ đó, Châu Chấu biết quý trọng công việc và thời gian.",
+        "Câu chuyện nhắc chúng ta phải biết làm việc, tiết kiệm và chuẩn bị cho tương lai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Kiến làm gì vào mùa hè?",
           "options": [
-            "công viên",
-            "bảo tàng",
-            "lớp học",
-            "góc đọc sách"
+            "Chuẩn bị thức ăn",
+            "Ngủ cả ngày",
+            "Chỉ ca hát",
+            "Đi du lịch"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Châu Chấu làm gì?",
           "options": [
-            "a red umbrella",
-            "một quả bóng",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Ca hát và vui chơi",
+            "Tha thức ăn",
+            "Xây tổ",
+            "Trồng cây"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Vì sao Châu Chấu lo lắng vào mùa đông?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không có thức ăn dự trữ",
+            "Không có bạn",
+            "Không có nhà",
+            "Không có quần áo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện khuyên chúng ta?",
+          "options": [
+            "Chăm chỉ và biết chuẩn bị",
+            "Chỉ vui chơi",
+            "Không cần tiết kiệm",
+            "Không cần làm việc"
           ],
           "answer": 0
         }
@@ -4896,45 +6679,66 @@ window.HUB_DATA = {
     {
       "id": 94,
       "grade": 10,
-      "title": "Bài đọc 94: Mai và một việc nhỏ",
+      "title": "Sư tử và Chuột — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng mưa nhỏ, Mai quyết định đến thư viện để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a small plant cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Mai phát hiện một tấm ảnh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động carried the backpack và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Mai tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Mai nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một ngày nọ, Sư tử nằm nghỉ dưới bóng cây sau khi đi săn.",
+        "Một chú Chuột nhỏ chạy qua người Sư tử.",
+        "Sư tử tỉnh dậy và tức giận bắt Chuột lại.",
+        "Chuột xin Sư tử tha cho mình và hứa sẽ có ngày giúp lại.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Sư tử nghe vậy thì bật cười vì nghĩ Chuột quá nhỏ bé.",
+        "Tuy vậy, Sư tử vẫn mở móng vuốt cho Chuột chạy đi.",
+        "Vài ngày sau, Sư tử bị mắc vào một chiếc lưới.",
+        "Sư tử vùng vẫy mãi nhưng không thể thoát ra.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chuột nghe tiếng kêu liền chạy đến.",
+        "Chuột dùng hàm răng nhỏ cắn từng sợi dây của chiếc lưới.",
+        "Sau một lúc, chiếc lưới bị thủng một lỗ lớn.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Sư tử chui ra và được tự do.",
+        "Sư tử cảm ơn Chuột và nhận ra lời hứa của Chuột là thật.",
+        "Sư tử hiểu rằng người nhỏ bé vẫn có thể làm được việc có ích.",
+        "Chuột vui vì đã giữ lời hứa với Sư tử.",
+        "Câu chuyện nhắc chúng ta không nên coi thường người khác chỉ vì họ nhỏ bé."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai bị mắc vào lưới?",
           "options": [
-            "thư viện",
-            "bờ sông",
-            "khu phố",
-            "trường học"
+            "Sư tử",
+            "Chuột",
+            "Cáo",
+            "Rùa"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai cứu Sư tử?",
           "options": [
-            "a small plant",
-            "một chiếc hộp nhỏ",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Chuột",
+            "Thỏ",
+            "Cáo",
+            "Cóc"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Chuột cứu Sư tử bằng cách nào?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Cắn đứt dây lưới",
+            "Gọi người đến",
+            "Đẩy chiếc lưới",
+            "Kéo lưới bằng chân"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Không nên coi thường người khác",
+            "Chỉ người mạnh mới có ích",
+            "Chuột luôn thắng Sư tử",
+            "Không cần giữ lời hứa"
           ],
           "answer": 0
         }
@@ -4943,45 +6747,66 @@ window.HUB_DATA = {
     {
       "id": 95,
       "grade": 10,
-      "title": "Bài đọc 95: Nam và một việc nhỏ",
+      "title": "Cậu bé chăn cừu — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng gió nhẹ, Nam quyết định đến khu vườn để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a yellow backpack cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Nam phát hiện một quyển sách và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động read the storybook và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Nam tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Nam nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một cậu bé được giao việc trông đàn cừu trên sườn đồi.",
+        "Ban đầu, cậu rất chăm chỉ và luôn để mắt đến đàn cừu.",
+        "Sau nhiều ngày, cậu bắt đầu cảm thấy công việc thật buồn chán.",
+        "Cậu nghĩ ra cách trêu mọi người trong làng.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cậu chạy lên đồi và hét lớn rằng có chó sói.",
+        "Nghe tiếng kêu, dân làng vội vàng chạy đến giúp.",
+        "Nhưng họ không thấy con sói nào cả.",
+        "Cậu bé cười lớn vì thấy mọi người bị mình lừa.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Vài ngày sau, cậu lại làm như vậy một lần nữa.",
+        "Dân làng đến nơi rồi mới biết cậu bé nói dối.",
+        "Một hôm, một con sói thật sự xuất hiện.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Cậu bé hoảng hốt kêu cứu nhưng lần này không ai tin.",
+        "Con sói làm đàn cừu chạy tán loạn.",
+        "Cậu bé rất ân hận vì những lời nói dối trước đây.",
+        "Cậu hiểu rằng lòng tin một khi mất đi thì rất khó lấy lại.",
+        "Câu chuyện nhắc chúng ta phải trung thực và có trách nhiệm với lời nói của mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Cậu bé được giao việc gì?",
           "options": [
-            "khu vườn",
-            "lớp học",
-            "góc đọc sách",
-            "công viên"
+            "Trông đàn cừu",
+            "Trồng cây",
+            "Chăn trâu",
+            "Bán hàng"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Cậu bé đã nói dối mấy lần trước khi có sói thật?",
           "options": [
-            "a yellow backpack",
-            "một bông hoa",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Hai lần",
+            "Một lần",
+            "Ba lần",
+            "Không lần nào"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Khi có sói thật, điều gì xảy ra?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Không ai tin cậu",
+            "Mọi người đến ngay",
+            "Sói bỏ đi",
+            "Cậu ngủ quên"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Phải trung thực",
+            "Nên nói dối để vui",
+            "Không cần giữ lời",
+            "Có thể trêu mọi người"
           ],
           "answer": 0
         }
@@ -4990,45 +6815,66 @@ window.HUB_DATA = {
     {
       "id": 96,
       "grade": 10,
-      "title": "Bài đọc 96: Linh và một việc nhỏ",
+      "title": "Cây tre trăm đốt — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng trời nắng, Linh quyết định đến sân nhà để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a paper boat cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Linh phát hiện một chiếc bút chì và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động cleaned the classroom và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Linh tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Linh nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, có một anh nông dân hiền lành làm thuê cho một phú ông.",
+        "Phú ông hứa rằng nếu anh chăm chỉ thì sẽ gả con gái cho anh.",
+        "Anh nông dân tin lời nên ngày ngày làm việc rất vất vả.",
+        "Đến khi con gái lớn, phú ông lại muốn gả con cho người giàu.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Phú ông bảo anh nông dân vào rừng tìm một cây tre có đủ một trăm đốt.",
+        "Anh nông dân buồn nhưng vẫn nghe lời đi tìm.",
+        "Anh tìm mãi mà không thấy cây tre nào như vậy.",
+        "Anh ngồi xuống và than thở vì nghĩ mình đã bị lừa.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Bụt hiện ra và hỏi chuyện của anh.",
+        "Bụt bảo anh chặt đủ một trăm đốt tre rồi xếp lại.",
+        "Anh làm theo và đọc lời thần kỳ để các đốt tre nối thành một cây.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Anh mang cây tre về gặp phú ông.",
+        "Phú ông ngạc nhiên và không thể giữ lời nói dối của mình.",
+        "Cuối cùng, phú ông phải giữ lời hứa với anh nông dân.",
+        "Anh nông dân vui mừng vì sự chăm chỉ của mình đã được đền đáp.",
+        "Câu chuyện nhắc chúng ta phải giữ lời hứa và không nên dùng sự giàu có để lừa người khác."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai làm thuê cho phú ông?",
           "options": [
-            "sân nhà",
-            "khu phố",
-            "trường học",
-            "thư viện"
+            "Anh nông dân",
+            "Người lính",
+            "Người thợ",
+            "Người lái buôn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Phú ông bảo tìm gì?",
           "options": [
-            "a paper boat",
-            "một chiếc khăn",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Cây tre trăm đốt",
+            "Cây khế",
+            "Cây đa",
+            "Cây cau"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai giúp anh nông dân?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Bụt",
+            "Cáo",
+            "Thỏ",
+            "Cóc"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Giữ lời hứa và sống ngay thẳng",
+            "Giàu có là quan trọng nhất",
+            "Có thể lừa người khác",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -5037,45 +6883,66 @@ window.HUB_DATA = {
     {
       "id": 97,
       "grade": 10,
-      "title": "Bài đọc 97: Huy và một việc nhỏ",
+      "title": "Ăn khế trả vàng — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng trời mát, Huy quyết định đến bảo tàng để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a new bicycle cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Huy phát hiện một chiếc lá xanh và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động flew the kite và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Huy tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Huy nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, hai anh em mồ côi sống với nhau sau khi cha mẹ qua đời.",
+        "Người anh tham lam chia hết tài sản cho mình và chỉ để lại cho em một cây khế.",
+        "Người em không than trách mà chăm sóc cây khế mỗi ngày.",
+        "Cây khế lớn lên và ra rất nhiều quả ngọt.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Một hôm, một con chim lớn bay đến ăn khế.",
+        "Người em buồn rầu nói rằng đó là tài sản duy nhất của mình.",
+        "Chim bảo người em may một chiếc túi nhỏ để chim trả công.",
+        "Người em làm đúng lời dặn của chim.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chim đưa người em đến một nơi có rất nhiều vàng bạc.",
+        "Người em chỉ lấy vừa đủ số vàng mà chiếc túi có thể đựng.",
+        "Nhờ vậy, người em có cuộc sống đầy đủ nhưng vẫn hiền lành.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Người anh biết chuyện nên đổi tài sản để lấy cây khế.",
+        "Người anh cũng gặp chim và đòi một chiếc túi thật lớn.",
+        "Chim đưa người anh đến nơi có vàng.",
+        "Người anh lấy quá nhiều nên trên đường về bị rơi xuống biển.",
+        "Câu chuyện nhắc chúng ta phải biết đủ và không nên để lòng tham điều khiển mình."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Người em được để lại gì?",
           "options": [
-            "bảo tàng",
-            "góc đọc sách",
-            "công viên",
-            "khu vườn"
+            "Cây khế",
+            "Một cánh đồng",
+            "Một con trâu",
+            "Một căn nhà lớn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Chim trả công bằng gì?",
           "options": [
-            "a new bicycle",
-            "một tấm ảnh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Vàng bạc",
+            "Lúa gạo",
+            "Trái cây",
+            "Quần áo"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Người anh mắc sai lầm gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Lấy quá nhiều vàng",
+            "Không chăm cây",
+            "Không nghe chim",
+            "Bỏ cây khế"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Bài học là gì?",
+          "options": [
+            "Biết đủ và không tham lam",
+            "Càng tham càng tốt",
+            "Phải lấy thật nhiều",
+            "Không cần chăm chỉ"
           ],
           "answer": 0
         }
@@ -5084,45 +6951,66 @@ window.HUB_DATA = {
     {
       "id": 98,
       "grade": 10,
-      "title": "Bài đọc 98: Vy và một việc nhỏ",
+      "title": "Sự tích bánh chưng, bánh dày — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng có mây nhẹ, Vy quyết định đến bờ sông để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a storybook cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Vy phát hiện một quả bóng và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động rode the bicycle và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Vy tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Vy nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, một vị vua có nhiều người con và muốn tìm người nối ngôi.",
+        "Nhà vua nói rằng người nào dâng được món lễ vật ý nghĩa nhất sẽ được truyền ngôi.",
+        "Các hoàng tử đi khắp nơi tìm của ngon vật lạ.",
+        "Lang Liêu là người nghèo nhất trong các hoàng tử.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Chàng trăn trở vì không có vàng bạc hay sản vật quý.",
+        "Một đêm, Lang Liêu được báo mộng rằng hạt gạo là thứ quý giá nhất.",
+        "Chàng nghĩ cách làm món ăn từ gạo để dâng lên vua cha.",
+        "Chàng dùng gạo nếp làm bánh hình vuông tượng trưng cho đất.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Chàng giã gạo thành bánh tròn tượng trưng cho trời.",
+        "Bánh vuông được gói bằng lá và có nhân đậu xanh cùng thịt.",
+        "Bánh tròn trắng tinh và được làm từ gạo nếp giã nhuyễn.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Ngày hội đến, các hoàng tử lần lượt dâng lễ vật.",
+        "Nhà vua nghe Lang Liêu giải thích rồi rất cảm động.",
+        "Nhà vua khen chàng biết quý trọng hạt gạo và công sức của người làm ruộng.",
+        "Lang Liêu được chọn làm người nối ngôi.",
+        "Câu chuyện nhắc chúng ta biết trân trọng lao động và những điều gần gũi trong cuộc sống."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Lang Liêu dùng gì để làm bánh?",
           "options": [
-            "bờ sông",
-            "trường học",
-            "thư viện",
-            "sân nhà"
+            "Gạo nếp",
+            "Ngô",
+            "Khoai",
+            "Sắn"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Bánh vuông tượng trưng cho gì?",
           "options": [
-            "a storybook",
-            "một quyển sách",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Đất",
+            "Trời",
+            "Biển",
+            "Núi"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Bánh tròn tượng trưng cho gì?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Trời",
+            "Đất",
+            "Sông",
+            "Rừng"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Nhà vua quý điều gì ở Lang Liêu?",
+          "options": [
+            "Biết quý trọng hạt gạo và lao động",
+            "Có nhiều vàng",
+            "Có quân lính",
+            "Có nhiều của lạ"
           ],
           "answer": 0
         }
@@ -5131,45 +7019,66 @@ window.HUB_DATA = {
     {
       "id": 99,
       "grade": 10,
-      "title": "Bài đọc 99: Khoa và một việc nhỏ",
+      "title": "Sơn Tinh, Thủy Tinh — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng mưa nhỏ, Khoa quyết định đến lớp học để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a lunch box cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Khoa phát hiện một chiếc hộp nhỏ và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động folded the paper boat và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Khoa tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Khoa nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Ngày xưa, vua Hùng có một người con gái rất xinh đẹp.",
+        "Nhà vua muốn tìm một người tài giỏi để làm chồng cho nàng.",
+        "Sơn Tinh là chúa vùng núi và có nhiều phép lạ.",
+        "Thủy Tinh là chúa vùng nước và cũng có sức mạnh phi thường.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Cả hai cùng đến xin cưới công chúa.",
+        "Nhà vua nói rằng ai mang lễ vật đến trước sẽ được cưới nàng.",
+        "Sáng hôm sau, Sơn Tinh mang đủ lễ vật đến trước.",
+        "Sơn Tinh đưa công chúa về núi.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Thủy Tinh đến sau nên tức giận và dâng nước đánh Sơn Tinh.",
+        "Nước sông dâng cao làm nhiều nơi ngập lụt.",
+        "Sơn Tinh nâng núi lên cao để ngăn dòng nước.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Thủy Tinh dâng nước càng cao thì Sơn Tinh lại nâng núi cao hơn.",
+        "Cuối cùng, Thủy Tinh mệt mỏi và rút nước về.",
+        "Hằng năm, Thủy Tinh vẫn dâng nước lên để trả mối hận cũ.",
+        "Người dân phải làm đê và chuẩn bị chống lũ.",
+        "Câu chuyện giải thích theo cách dân gian về lũ lụt và ca ngợi sức mạnh của con người trước thiên tai."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai đến xin cưới công chúa?",
           "options": [
-            "lớp học",
-            "công viên",
-            "khu vườn",
-            "bảo tàng"
+            "Sơn Tinh và Thủy Tinh",
+            "Cóc và Rùa",
+            "Thỏ và Cáo",
+            "Sư tử và Chuột"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Ai đến trước?",
           "options": [
-            "a lunch box",
-            "một chiếc bút chì",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Thủy Tinh làm gì khi đến sau?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Dâng nước đánh Sơn Tinh",
+            "Bỏ về ngay",
+            "Trồng cây",
+            "Xin lỗi"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện giải thích theo dân gian về điều gì?",
+          "options": [
+            "Lũ lụt",
+            "Mùa thu",
+            "Gió biển",
+            "Mưa phùn"
           ],
           "answer": 0
         }
@@ -5178,45 +7087,66 @@ window.HUB_DATA = {
     {
       "id": 100,
       "grade": 10,
-      "title": "Bài đọc 100: Trang và một việc nhỏ",
+      "title": "Cóc kiện Trời — Lớp 10",
       "sentences": [
-        "Vào một buổi sáng gió nhẹ, Trang quyết định đến khu phố để hoàn thành một mục tiêu đã đặt ra.",
-        "Bạn mang theo a small camera cùng một vài ghi chú để không bỏ sót những việc quan trọng.",
-        "Gần lối vào, Trang phát hiện một bông hoa và dừng lại quan sát trong vài phút.",
-        "Thay vì bỏ qua, bạn chủ động shared the lunch và ghi lại điều mình đã làm.",
-        "Một người bạn xuất hiện, đặt câu hỏi và cùng Trang tìm cách xử lý phần việc còn lại.",
-        "Hai bạn so sánh các cách làm, rồi chọn phương án đơn giản nhưng hiệu quả hơn.",
-        "Cuối cùng, công việc hoàn thành đúng thời gian và cả hai rút ra một bài học về trách nhiệm.",
-        "Trên đường về, Trang nghĩ rằng sự kiên trì và hợp tác thường quan trọng hơn việc làm mọi thứ thật nhanh."
+        "Một năm nọ, trời hạn hán rất lâu khiến cây cối khô héo.",
+        "Ao hồ cạn nước và các con vật đều khát.",
+        "Cóc nhìn thấy cảnh ấy nên quyết định lên trời hỏi chuyện.",
+        "Cóc gọi các bạn cùng đi với mình.",
+        "Những người xung quanh đều nhận ra rằng mỗi hành động đều có thể tạo nên một kết quả khác nhau.",
+        "Đàn Ong, Cáo, Gấu và Cọp cùng theo Cóc.",
+        "Đường lên trời rất xa nhưng mọi người vẫn kiên trì.",
+        "Khi đến cổng trời, Cóc đánh trống để xin gặp Ngọc Hoàng.",
+        "Ngọc Hoàng nghe tiếng trống thì rất ngạc nhiên.",
+        "Qua sự việc ấy, nhân vật dần hiểu rằng lựa chọn của mình không chỉ ảnh hưởng đến bản thân mà còn tác động đến những người khác.",
+        "Cóc kể cho Ngọc Hoàng nghe cảnh khô hạn dưới trần gian.",
+        "Ngọc Hoàng hiểu rằng các loài vật đang rất khổ sở.",
+        "Ngọc Hoàng ra lệnh cho Rồng phun mưa xuống mặt đất.",
+        "Bài học của câu chuyện vì thế không chỉ nằm ở kết quả cuối cùng mà còn ở cách mỗi người đối diện với sai lầm và sửa đổi.",
+        "Mưa rơi xuống làm sông suối đầy nước và cây cối xanh trở lại.",
+        "Các con vật vui mừng vì đã có nước uống.",
+        "Ngọc Hoàng khen Cóc dũng cảm và biết lo cho mọi người.",
+        "Từ đó, dân gian gọi Cóc là cậu ông Trời.",
+        "Câu chuyện ca ngợi lòng dũng cảm và tinh thần biết lên tiếng vì cộng đồng."
       ],
       "questions": [
         {
-          "q": "Nhân vật chính đến đâu?",
+          "q": "Ai lên trời hỏi chuyện hạn hán?",
           "options": [
-            "khu phố",
-            "thư viện",
-            "sân nhà",
-            "bờ sông"
+            "Cóc",
+            "Rùa",
+            "Thỏ",
+            "Cáo"
           ],
           "answer": 0
         },
         {
-          "q": "Nhân vật mang theo gì?",
+          "q": "Vì sao Cóc đi lên trời?",
           "options": [
-            "a small camera",
-            "một chiếc lá xanh",
-            "một chiếc ô lớn",
-            "một chiếc xe buýt"
+            "Muốn xin mưa",
+            "Muốn tìm vàng",
+            "Muốn tìm nhà",
+            "Muốn gặp bạn"
           ],
           "answer": 0
         },
         {
-          "q": "Câu chuyện nhấn mạnh điều gì?",
+          "q": "Ai ra lệnh cho Rồng phun mưa?",
           "options": [
-            "Giữ gìn và cùng nhau làm việc có ích",
-            "Không cần giúp đỡ người khác",
-            "Chỉ cần làm thật nhanh",
-            "Nên bỏ qua những việc nhỏ"
+            "Ngọc Hoàng",
+            "Cóc",
+            "Cáo",
+            "Gấu"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Câu chuyện ca ngợi điều gì?",
+          "options": [
+            "Lòng dũng cảm và tinh thần vì cộng đồng",
+            "Sự giàu có",
+            "Sức mạnh của vàng",
+            "Việc sống một mình"
           ],
           "answer": 0
         }
