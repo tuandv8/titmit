@@ -1,7 +1,0 @@
-{
-  "name":"learning-hub-kids",
-  "version":"1.0.0",
-  "private":true,
-  "description":"Learning Hub for children: English vocabulary, Math thinking, and Vietnamese reading.",
-  "scripts":{"start":"node server.js","dev":"node server.js"}
-}
