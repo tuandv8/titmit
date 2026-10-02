@@ -12,7 +12,8 @@ const state={
   gameScore:{choice:0,fill:0,listen:0},
   gameWord:{choice:'',fill:'',listen:''},
   mathPage:Number(localStorage.getItem('hubMathPage')||1),
-  mathMode:localStorage.getItem('hubMathMode')||'student'
+  mathMode:localStorage.getItem('hubMathMode')||'student',
+  mindmapRoot:localStorage.getItem('hubMindRoot')||''
 };
 const progress=JSON.parse(localStorage.getItem('hubProgress')||'{}');
 
@@ -29,7 +30,7 @@ function save(){
   localStorage.setItem('hubGrade',state.grade);localStorage.setItem('hubPage',state.page);
   localStorage.setItem('hubVocabTab',state.vocabTab);localStorage.setItem('hubStory',state.storyId);
   localStorage.setItem('hubStoryGrade',state.storyGrade);localStorage.setItem('hubGameTab',state.gameTab);
-  localStorage.setItem('hubMathPage',state.mathPage);localStorage.setItem('hubMathMode',state.mathMode);
+  localStorage.setItem('hubMathPage',state.mathPage);localStorage.setItem('hubMathMode',state.mathMode);localStorage.setItem('hubMindRoot',state.mindmapRoot);
   updatePill();
 }
 function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('show');clearTimeout(window.__toast);window.__toast=setTimeout(()=>el.classList.remove('show'),1700)}
@@ -190,7 +191,7 @@ function renderNav(){
   let h=`<button type="button" class="grade ${state.page==='overview'?'active':''}" data-page="overview">🏠 <span>Tổng quan</span><span class="arrow">›</span></button>`;
   for(let g=1;g<=10;g++){
     h+=`<button type="button" class="grade ${state.grade===g?'active':''}" data-grade="${g}">📁 <span>Lớp ${g}</span><span class="arrow">›</span></button>`;
-    if(state.grade===g)h+=`<div class="subnav"><button type="button" data-page="vocabGames" class="${state.page==='vocabGames'?'active':''}">🌈 Vocabulary Games</button><button type="button" data-page="vocabList" class="${state.page==='vocabList'?'active':''}">📚 Vocabulary List</button><button type="button" data-page="math" class="${state.page==='math'?'active':''}">🧠 Toán tư duy</button><button type="button" data-page="vietnamese" class="${state.page==='vietnamese'?'active':''}">📖 Tiếng Việt</button></div>`;
+    if(state.grade===g)h+=`<div class="subnav"><button type="button" data-page="vocabGames" class="${state.page==='vocabGames'?'active':''}">🌈 Vocabulary Games</button><button type="button" data-page="vocabList" class="${state.page==='vocabList'?'active':''}">📚 Vocabulary List</button><button type="button" data-page="mindmap" class="${state.page==='mindmap'?'active':''}">🧠 Mindmap Vocabulary</button><button type="button" data-page="math" class="${state.page==='math'?'active':''}">🧠 Toán tư duy</button><button type="button" data-page="vietnamese" class="${state.page==='vietnamese'?'active':''}">📖 Tiếng Việt</button></div>`;
   }
   $('#gradeNav').innerHTML=h;
   document.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>{state.grade=+b.dataset.grade;state.page='vocabGames';save();closeMenu();render()});
@@ -202,12 +203,66 @@ $('#menuBtn').onclick=openMenu;$('#menuOverlay').onclick=closeMenu;document.addE
 
 function render(){
   renderNav();
-  $('#pageTitle').textContent=({overview:'Tổng quan',vocabGames:'Vocabulary Games',vocabList:'Vocabulary List',math:'Toán tư duy',vietnamese:'Tiếng Việt'})[state.page]||'Tổng quan';
-  ({overview:renderOverview,vocabGames:renderGames,vocabList:renderVocab,math:renderMath,vietnamese:renderVietnamese}[state.page]||renderOverview)();updatePill();
+  $('#pageTitle').textContent=({overview:'Tổng quan',vocabGames:'Vocabulary Games',vocabList:'Vocabulary List',mindmap:'Mindmap Vocabulary',math:'Toán tư duy',vietnamese:'Tiếng Việt'})[state.page]||'Tổng quan';
+  ({overview:renderOverview,vocabGames:renderGames,vocabList:renderVocab,mindmap:renderMindmap,math:renderMath,vietnamese:renderVietnamese}[state.page]||renderOverview)();updatePill();
 }
 function renderOverview(){
   app.innerHTML=`<div class="hero"><div><div class="eyebrow" style="color:#eee">CHÀO MỪNG BẠN NHỎ</div><h2>Học vui • Nhớ lâu • Tự tin</h2><p>Lớp ${state.grade} · Chọn một khu vực để bắt đầu hôm nay.</p></div><div class="hero-art">🧒📚</div></div><div class="stats"><div class="stat"><strong>10</strong><span>Từ mới hôm nay</span></div><div class="stat"><strong>${D.stories.filter(x=>x.grade===state.grade).length}</strong><span>Truyện lớp ${state.grade}</span></div><div class="stat"><strong>${M.length}</strong><span>Trang Toán tương tác</span></div></div><h2 class="section-title">Nội dung học</h2><div class="grid"><div class="card module-card" data-go="vocabGames"><div class="module-icon">🌈</div><h3>Vocabulary Games</h3><p>Chọn từng trò chơi riêng, mỗi trò có điểm riêng.</p><span class="go">Học ngay →</span></div><div class="card module-card" data-go="vocabList"><div class="module-icon">📚</div><h3>Vocabulary List</h3><p>10 từ mới hôm nay, flashcard, đã thuộc và cần học.</p><span class="go">Mở danh sách →</span></div><div class="card module-card" data-go="math"><div class="module-icon">🧠</div><h3>Toán tư duy</h3><p>46 trang bài tập được cắt từ tài liệu, có lớp nhập và chấm đáp án.</p><span class="go">Làm bài →</span></div><div class="card module-card" data-go="vietnamese"><div class="module-icon">📖</div><h3>Tiếng Việt</h3><p>100 truyện cổ tích và ngụ ngôn, 16–19 câu, đọc to và đọc hiểu.</p><span class="go">Đọc truyện →</span></div></div>`;
   document.querySelectorAll('[data-go]').forEach(x=>x.onclick=()=>{state.page=x.dataset.go;save();render()});
+}
+
+// ===== CURRICULUM VOCABULARY ENGINE =====
+const OXFORD_CSV_URL='https://raw.githubusercontent.com/chunzhng/Oxford-3000-5000/main/oxford-3000.csv';
+let vocabularyReady=false, vocabularyLoading=null;
+const meaningCache=JSON.parse(localStorage.getItem('hubMeaningCache')||'{}');
+const POS_KEEP=new Set(['noun','verb','adjective','adverb','number','exclamation']);
+function saveMeaningCache(){try{localStorage.setItem('hubMeaningCache',JSON.stringify(meaningCache))}catch(e){}}
+function cleanWord(w){return String(w||'').trim().replace(/\s+/g,' ')}
+function parseOxford(csv){
+  const rows=String(csv||'').split(/\r?\n/).slice(1), map=new Map();
+  for(const line of rows){const m=line.match(/^([^,]+),([^,]+),([^,]+)$/);if(!m)continue;const word=cleanWord(m[1]);const pos=m[2],level=m[3].toLowerCase();if(!word||word.length>30||!POS_KEEP.has(pos))continue;if(!map.has(word))map.set(word,{word,level,pos,meaning:meaningCache[word]||''})}
+  return [...map.values()];
+}
+const GRADE_LEVELS={1:['a1'],2:['a1'],3:['a1'],4:['a1','a2'],5:['a1','a2'],6:['a2'],7:['a2','b1'],8:['a2','b1'],9:['a2','b1','b2'],10:['b1','b2']};
+const GRADE_SEEDS={};
+for(let g=1;g<=10;g++)GRADE_SEEDS[g]=(D.vocabulary[String(g)]||[]).map(x=>x.word);
+async function hydrateVocabulary(){
+  if(vocabularyReady||vocabularyLoading)return vocabularyLoading;
+  vocabularyLoading=(async()=>{
+    try{
+      const r=await fetch(OXFORD_CSV_URL,{cache:'force-cache'});if(!r.ok)throw new Error('Oxford fetch failed');
+      const items=parseOxford(await r.text());
+      const used=new Set(), next={};
+      const targets=window.HUB_CURRICULUM?.targets||{};
+      for(let g=1;g<=10;g++){
+        const target=targets[g]||D.vocabulary[String(g)]?.length||10;
+        const out=[];
+        for(const seed of (GRADE_SEEDS[g]||[])){
+          const hit=items.find(x=>x.word.toLowerCase()===String(seed).toLowerCase());
+          if(hit&&!used.has(hit.word.toLowerCase())){out.push({...hit,meaning:(D.vocabulary[String(g)]||[]).find(y=>y.word.toLowerCase()===hit.word.toLowerCase())?.meaning||hit.meaning||''});used.add(hit.word.toLowerCase())}
+        }
+        const allowed=new Set(GRADE_LEVELS[g]||['a1']);
+        const candidates=items.filter(x=>allowed.has(x.level)&&!used.has(x.word.toLowerCase()) && !/^(a|an|the|i|you|he|she|it|we|they|me|him|her|us|them|my|your|his|our|their|this|that|these|those|and|or|but|if|because|so|of|to|in|on|at|by|for|from|with|as|than|into|over|under|can|could|may|might|must|should|would|will|be|been|being|do|does|did|have|has|had)$/i.test(x.word));
+        candidates.sort((a,b)=>{const lv={'a1':0,'a2':1,'b1':2,'b2':3};return (lv[a.level]||9)-(lv[b.level]||9)||a.word.localeCompare(b.word)});
+        for(const x of candidates){if(out.length>=target)break;out.push({...x,meaning:x.meaning||''});used.add(x.word.toLowerCase())}
+        next[String(g)]=out;
+      }
+      // Guarantee no class falls below its planned target if the filtered Oxford set is insufficient.
+      if(Object.values(next).every(a=>a.length>=20)){D.vocabulary=next;vocabularyReady=true;window.HUB_DATA.vocabulary=next;}
+    }catch(e){console.warn('Expanded vocabulary unavailable; keeping bundled seed vocabulary.',e)}
+  })();
+  return vocabularyLoading;
+}
+function getMeaning(word){return meaningCache[String(word).toLowerCase()]||''}
+async function fetchMeaning(word){
+  const w=cleanWord(word).toLowerCase();if(!w)return '';
+  if(meaningCache[w])return meaningCache[w];
+  try{const r=await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(w)}&langpair=en|vi`,{cache:'force-cache'});if(!r.ok)return '';const d=await r.json();const t=d?.responseData?.translatedText||'';if(t&&t.toLowerCase()!==w){meaningCache[w]=t;saveMeaningCache();return t}}catch(e){}
+  return '';
+}
+function ensureMeanings(words,limit=12){
+  const targets=words.filter(x=>!x.meaning&&!getMeaning(x.word)).slice(0,limit);if(!targets.length)return;
+  Promise.all(targets.map(async x=>{const m=await fetchMeaning(x.word);if(m)x.meaning=m;})).then(()=>{if(state.page==='vocabList')renderVocab()}).catch(()=>{});
 }
 
 // ===== VOCAB LIST =====
@@ -235,17 +290,19 @@ function vocabDetail(x){
   if(!x)return;
   const old=document.querySelector('.vocab-detail-overlay'); if(old)old.remove();
   const overlay=document.createElement('div'); overlay.className='vocab-detail-overlay';
+  const known=x.meaning||getMeaning(x.word)||'Đang tra nghĩa…';
   overlay.innerHTML=`<div class="vocab-detail-popup" role="dialog" aria-modal="true" aria-label="Chi tiết từ vựng">
     ${vocabIllustration(x.word,'vocab-art vocab-art-detail',x.word)}
     <div class="eyebrow">VOCABULARY · LỚP ${state.grade}</div>
-    <h2>${escapeHtml(x.word)}</h2><div class="vocab-detail-meaning">${escapeHtml(x.meaning)}</div>
-    <div class="vocab-detail-actions"><button class="btn primary" data-detail-speak="${escapeHtml(x.word)}">🔊 Nghe tiếng Anh</button><button class="btn secondary" data-detail-vn="${escapeHtml(x.meaning)}">🔊 Nghe tiếng Việt</button></div>
+    <h2>${escapeHtml(x.word)}</h2><div class="vocab-detail-meaning" id="detailMeaning">${escapeHtml(known)}</div>
+    <div class="vocab-detail-actions"><button class="btn primary" data-detail-speak="${escapeHtml(x.word)}">🔊 Nghe tiếng Anh</button><button class="btn secondary" data-detail-vn="${escapeHtml(known)}">🔊 Nghe tiếng Việt</button></div>
     <div class="vocab-detail-note">Chạm ra ngoài khung để đóng.</div>
   </div>`;
   document.body.appendChild(overlay);
+  if(!x.meaning&&!getMeaning(x.word))fetchMeaning(x.word).then(m=>{if(m){x.meaning=m;const el=overlay.querySelector('#detailMeaning');if(el)el.textContent=m;const b=overlay.querySelector('[data-detail-vn]');if(b)b.dataset.detailVn=m;}});
   overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.remove()});
   overlay.querySelector('[data-detail-speak]').onclick=e=>{e.stopPropagation();speakEnglish(x.word)};
-  overlay.querySelector('[data-detail-vn]').onclick=e=>{e.stopPropagation();speakVietnamese(x.meaning)};
+  overlay.querySelector('[data-detail-vn]').onclick=async e=>{e.stopPropagation();const m=x.meaning||getMeaning(x.word)||await fetchMeaning(x.word);if(m){x.meaning=m;overlay.querySelector('[data-detail-vn]').dataset.detailVn=m;overlay.querySelector('#detailMeaning').textContent=m;speakVietnamese(m)}else toast('Chưa lấy được nghĩa tiếng Việt.');};
 }
 function bindVocabInteractions(){
   document.querySelectorAll('[data-en-speak]').forEach(x=>x.onclick=e=>{e.stopPropagation();speakEnglish(x.dataset.enSpeak)});
@@ -256,10 +313,11 @@ function bindVocabInteractions(){
 function renderVocab(){
   const words=vocab(), mastered=words.filter(x=>isMastered(x.word)), need=words.filter(x=>!isMastered(x.word));
   let body='';
-  if(state.vocabTab==='today') body=`<div class="flash-grid">${words.slice(0,10).map((x,i)=>`<div class="flash" data-vocab-detail="${escapeHtml(x.word)}"><div>${vocabIllustration(x.word,'vocab-art vocab-art-card',x.word)}<span class="eyebrow">TỪ ${i+1}/10</span><div class="word">${escapeHtml(x.word)}</div><div class="meaning">${escapeHtml(x.meaning)}</div></div><div class="flash-actions"><button class="btn secondary sound" title="Nghe phát âm Mỹ" data-en-speak="${escapeHtml(x.word)}">🔊</button><button class="btn ${isMastered(x.word)?'good':'warn'}" data-master="${escapeHtml(x.word)}">${isMastered(x.word)?'✓ Đã thuộc':'□ Cần học'}</button></div></div>`).join('')}</div>`;
-  else if(state.vocabTab==='mastered'||state.vocabTab==='need') {const arr=state.vocabTab==='mastered'?mastered:need;body=arr.length?`<div class="word-list">${arr.map(x=>`<div class="word-row" data-vocab-detail="${escapeHtml(x.word)}">${vocabIllustration(x.word,'vocab-art vocab-art-row',x.word)}<div><b>${escapeHtml(x.word)}</b><span>${escapeHtml(x.meaning)}</span></div><button class="btn secondary sound" data-en-speak="${escapeHtml(x.word)}">🔊</button><label class="check"><input type="checkbox" ${isMastered(x.word)?'checked':''} data-check="${escapeHtml(x.word)}"> Đã thuộc</label></div>`).join('')}</div>`:`<div class="empty">Chưa có từ nào ở mục này.</div>`}
-  else body=`<div class="grade-vocab-grid">${words.map((x,i)=>`<div class="grade-vocab-card" data-vocab-detail="${escapeHtml(x.word)}">${vocabIllustration(x.word,'vocab-art vocab-art-grid',x.word)}<b>${escapeHtml(x.word)}</b><span>${escapeHtml(x.meaning)}</span><button class="btn secondary sound" data-en-speak="${escapeHtml(x.word)}">🔊</button></div>`).join('')}</div>`;
-  app.innerHTML=`<div class="toolbar"><span class="grade-badge">📘 Lớp ${state.grade}</span><span class="muted">${words.length} từ trong danh sách lớp này</span></div><div class="tabs vocab-tabs"><button class="tab ${state.vocabTab==='today'?'active':''}" data-vtab="today">10 từ mới hôm nay</button><button class="tab ${state.vocabTab==='mastered'?'active':''}" data-vtab="mastered">Vocab đã thuộc (${mastered.length})</button><button class="tab ${state.vocabTab==='need'?'active':''}" data-vtab="need">Cần học (${need.length})</button><button class="tab ${state.vocabTab==='all'?'active':''}" data-vtab="all">📚 Vocab lớp ${state.grade}</button></div>${body}<div class="note vocab-curriculum-note">Chương trình GDPT quy định theo <b>cấp học</b>, không ấn định một số từ riêng cho từng lớp. Tiểu học khoảng 600–700 từ; THCS khoảng 800–1000 từ (không tính từ đã học ở tiểu học). Danh sách ứng dụng được phân bổ tăng dần theo lớp để phục vụ học tập.</div>`;
+  if(state.vocabTab==='today') body=`<div class="flash-grid">${words.slice(0,10).map((x,i)=>`<div class="flash" data-vocab-detail="${escapeHtml(x.word)}"><div>${vocabIllustration(x.word,'vocab-art vocab-art-card',x.word)}<span class="eyebrow">TỪ ${i+1}/10</span><div class="word">${escapeHtml(x.word)}</div><div class="meaning">${escapeHtml(x.meaning||getMeaning(x.word)||'Đang tải nghĩa…')}</div></div><div class="flash-actions"><button class="btn secondary sound" title="Nghe phát âm Mỹ" data-en-speak="${escapeHtml(x.word)}">🔊</button><button class="btn ${isMastered(x.word)?'good':'warn'}" data-master="${escapeHtml(x.word)}">${isMastered(x.word)?'✓ Đã thuộc':'□ Cần học'}</button></div></div>`).join('')}</div>`;
+  else if(state.vocabTab==='mastered'||state.vocabTab==='need') {const arr=state.vocabTab==='mastered'?mastered:need;body=arr.length?`<div class="word-list">${arr.map(x=>`<div class="word-row" data-vocab-detail="${escapeHtml(x.word)}">${vocabIllustration(x.word,'vocab-art vocab-art-row',x.word)}<div><b>${escapeHtml(x.word)}</b><span>${escapeHtml(x.meaning||getMeaning(x.word)||'Đang tải nghĩa…')}</span></div><button class="btn secondary sound" data-en-speak="${escapeHtml(x.word)}">🔊</button><label class="check"><input type="checkbox" ${isMastered(x.word)?'checked':''} data-check="${escapeHtml(x.word)}"> Đã thuộc</label></div>`).join('')}</div>`:`<div class="empty">Chưa có từ nào ở mục này.</div>`}
+  else body=`<div class="grade-vocab-grid">${words.map((x,i)=>`<div class="grade-vocab-card" data-vocab-detail="${escapeHtml(x.word)}">${vocabIllustration(x.word,'vocab-art vocab-art-grid',x.word)}<b>${escapeHtml(x.word)}</b><span>${escapeHtml(x.meaning||getMeaning(x.word)||'Đang tải nghĩa…')}</span><button class="btn secondary sound" data-en-speak="${escapeHtml(x.word)}">🔊</button></div>`).join('')}</div>`;
+  ensureMeanings(words,16);
+  app.innerHTML=`<div class="toolbar"><span class="grade-badge">📘 Lớp ${state.grade}</span><span class="muted">${words.length} từ · ${escapeHtml(window.HUB_CURRICULUM?.bands?.[state.grade]||'')}</span></div><div class="tabs vocab-tabs"><button class="tab ${state.vocabTab==='today'?'active':''}" data-vtab="today">10 từ mới hôm nay</button><button class="tab ${state.vocabTab==='mastered'?'active':''}" data-vtab="mastered">Vocab đã thuộc (${mastered.length})</button><button class="tab ${state.vocabTab==='need'?'active':''}" data-vtab="need">Cần học (${need.length})</button><button class="tab ${state.vocabTab==='all'?'active':''}" data-vtab="all">📚 Vocab lớp ${state.grade}</button></div>${body}<div class="note vocab-curriculum-note">Chương trình GDPT quy định theo <b>cấp học</b>, không ấn định một số từ riêng cho từng lớp. App dùng mục tiêu phân bổ theo lớp để dễ học: lớp 3–5 cộng dồn khoảng 600–700 từ; lớp 6–9 bổ sung khoảng 800–1000 từ; lớp 10 bắt đầu dải THPT. Đây là <b>mục tiêu thiết kế của app</b>, không phải quota chính thức của từng lớp.</div>`;
   document.querySelectorAll('[data-vtab]').forEach(x=>x.onclick=()=>{state.vocabTab=x.dataset.vtab;save();render()});
   bindVocabInteractions();
 }
@@ -292,17 +350,20 @@ function randomChoices(correct,count=4){
 function renderGames(){
   const w=currentGameWord(state.gameTab);if(!w){app.innerHTML='<div class="empty">Chưa có dữ liệu từ vựng.</div>';return}
   let body='';
+  ensureMeanings([w],1);
   if(state.gameTab==='choice'){
     const choices=randomChoices(w);
-    body=`<div class="card game-card single-game"><div class="eyebrow">GAME 1 · CHỌN TỪ · RANDOM TOÀN BỘ 100 TỪ</div>${vocabIllustration(w.word,'vocab-art vocab-art-game',w.word)}<button class="btn secondary sound big-sound" data-en-speak="${escapeHtml(w.word)}">🔊 Nghe từ</button><div class="game-question">Từ tiếng Anh nào có nghĩa <em>“${escapeHtml(w.meaning)}”</em>?</div><div class="options">${choices.map(c=>`<button class="option option-with-art" data-choice="${escapeHtml(c.word)}">${vocabIllustration(c.word,'vocab-art vocab-art-option',c.word)}<span>${escapeHtml(c.word)}</span></button>`).join('')}</div><div class="score-line">Điểm trò này: <b>${state.gameScore.choice}</b> · Câu ngẫu nhiên #${state.gameIndex.choice+1}</div></div>`;
+    const wMeaning=w.meaning||getMeaning(w.word)||'Đang tải nghĩa…';
+    body=`<div class="card game-card single-game"><div class="eyebrow">GAME 1 · CHỌN TỪ · RANDOM TOÀN BỘ ${allVocab().length} TỪ</div>${vocabIllustration(w.word,'vocab-art vocab-art-game',w.word)}<button class="btn secondary sound big-sound" data-en-speak="${escapeHtml(w.word)}">🔊 Nghe từ</button><div class="game-question">Từ tiếng Anh nào có nghĩa <em>“${escapeHtml(wMeaning)}”</em>?</div><div class="options">${choices.map(c=>`<button class="option option-with-art" data-choice="${escapeHtml(c.word)}">${vocabIllustration(c.word,'vocab-art vocab-art-option',c.word)}<span>${escapeHtml(c.word)}</span></button>`).join('')}</div><div class="score-line">Điểm trò này: <b>${state.gameScore.choice}</b> · Câu ngẫu nhiên #${state.gameIndex.choice+1}</div></div>`;
   } else if(state.gameTab==='fill'){
     const m=maskedWord(w.word);
-    body=`<div class="card game-card single-game"><div class="eyebrow">GAME 2 · HOÀN THIỆN TỪ · RANDOM TOÀN BỘ 100 TỪ</div>${vocabIllustration(w.word,'vocab-art vocab-art-game',w.word)}<div class="game-question">Điền đúng phần còn thiếu.</div><div class="inline-word" aria-label="Từ có một phần bị khuyết"><span>${escapeHtml(m.before)}</span><input id="fillInput" class="inline-letter-input" maxlength="${m.missing.length}" autocomplete="off" aria-label="Phần còn thiếu"><span>${escapeHtml(m.after)}</span></div><button class="btn secondary sound" data-en-speak="${escapeHtml(w.word)}">🔊 Nghe</button><button id="checkFill" class="btn primary" style="margin-top:12px">Kiểm tra</button><div id="fillResult" class="result-space"></div><div class="score-line">Điểm trò này: <b>${state.gameScore.fill}</b> · Câu ngẫu nhiên #${state.gameIndex.fill+1}</div></div>`;
+    body=`<div class="card game-card single-game"><div class="eyebrow">GAME 2 · HOÀN THIỆN TỪ · RANDOM TOÀN BỘ ${allVocab().length} TỪ</div>${vocabIllustration(w.word,'vocab-art vocab-art-game',w.word)}<div class="game-question">Điền đúng phần còn thiếu.</div><div class="inline-word" aria-label="Từ có một phần bị khuyết"><span>${escapeHtml(m.before)}</span><input id="fillInput" class="inline-letter-input" maxlength="${m.missing.length}" autocomplete="off" aria-label="Phần còn thiếu"><span>${escapeHtml(m.after)}</span></div><button class="btn secondary sound" data-en-speak="${escapeHtml(w.word)}">🔊 Nghe</button><button id="checkFill" class="btn primary" style="margin-top:12px">Kiểm tra</button><div id="fillResult" class="result-space"></div><div class="score-line">Điểm trò này: <b>${state.gameScore.fill}</b> · Câu ngẫu nhiên #${state.gameIndex.fill+1}</div></div>`;
   } else {
     const choices=randomChoices(w);
-    body=`<div class="card game-card single-game"><div class="eyebrow">GAME 3 · NGHE VÀ CHỌN · RANDOM TOÀN BỘ 100 TỪ</div><div class="listen-illustration" aria-hidden="true">🎧</div><button id="playListen" class="listen-big">🔊</button><div class="game-question">Nghe từ rồi chọn từ em vừa nghe.</div><div class="options">${choices.map(c=>`<button class="option option-with-art" data-listen-choice="${escapeHtml(c.word)}">${vocabIllustration(c.word,'vocab-art vocab-art-option',c.word)}<span>${escapeHtml(c.word)}</span></button>`).join('')}</div><div class="score-line">Điểm trò này: <b>${state.gameScore.listen}</b> · Câu ngẫu nhiên #${state.gameIndex.listen+1}</div></div>`;
+    const wMeaning=w.meaning||getMeaning(w.word)||'Đang tải nghĩa…';
+    body=`<div class="card game-card single-game"><div class="eyebrow">GAME 3 · NGHE VÀ CHỌN · RANDOM TOÀN BỘ ${allVocab().length} TỪ</div><div class="listen-illustration" aria-hidden="true">🎧</div><button id="playListen" class="listen-big">🔊</button><div class="game-question">Nghe từ rồi chọn từ em vừa nghe.</div><div class="options">${choices.map(c=>`<button class="option option-with-art" data-listen-choice="${escapeHtml(c.word)}">${vocabIllustration(c.word,'vocab-art vocab-art-option',c.word)}<span>${escapeHtml(c.word)}</span></button>`).join('')}</div><div class="score-line">Điểm trò này: <b>${state.gameScore.listen}</b> · Câu ngẫu nhiên #${state.gameIndex.listen+1}</div></div>`;
   }
-  app.innerHTML=`<div class="note">🎲 Mỗi câu được chọn ngẫu nhiên từ toàn bộ ${allVocab().length} từ của lớp 1–10. Mỗi trò có điểm riêng. 🔊 Tiếng Anh ưu tiên file phát âm Mỹ từ Google Dictionary/Oxford; nếu không có sẽ thử nguồn dự phòng.</div>${gameTabs()}${body}`;
+  app.innerHTML=`<div class="note">🎲 Mỗi câu được chọn ngẫu nhiên từ toàn bộ <b>${allVocab().length}</b> từ của lớp 1–10. Mỗi trò có điểm riêng. Bộ từ được mở rộng theo cấp độ/word list; danh sách lớp là phần học chính, game là vùng ôn tập tổng hợp.</div>${gameTabs()}${body}`;
   document.querySelectorAll('[data-game-tab]').forEach(b=>b.onclick=()=>{state.gameTab=b.dataset.gameTab;save();renderGames()});
   document.querySelectorAll('[data-en-speak]').forEach(b=>b.onclick=()=>speakEnglish(b.dataset.enSpeak));
   document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const ok=b.dataset.choice===w.word;if(ok){b.classList.add('correct');state.gameScore.choice++;showAnswerFeedback(true,'Chính xác!','Tuyệt vời, em đã chọn đúng.');setTimeout(()=>nextGame('choice'),900)}else{b.classList.add('wrong');showAnswerFeedback(false,'Chưa đúng','Hãy thử lại nhé.');}});
@@ -310,6 +371,20 @@ function renderGames(){
   if($('#fillInput'))$('#fillInput').onkeydown=e=>{if(e.key==='Enter')$('#checkFill').click()};
   document.querySelectorAll('[data-listen-choice]').forEach(b=>b.onclick=()=>{const ok=b.dataset.listenChoice===w.word;if(ok){b.classList.add('correct');state.gameScore.listen++;showAnswerFeedback(true,'Chính xác!','Em nghe rất tốt.');setTimeout(()=>nextGame('listen'),900)}else{b.classList.add('wrong');showAnswerFeedback(false,'Chưa đúng','Hãy bấm loa và nghe lại.');}});
   if($('#playListen'))$('#playListen').onclick=()=>speakEnglish(w.word);
+}
+
+// ===== MINDMAP VOCABULARY =====
+function mindmapData(){return window.HUB_CURRICULUM?.mindmaps?.[state.grade]||[]}
+function renderMindmap(){
+  const maps=mindmapData();if(!maps.length){app.innerHTML='<div class="empty">Chưa có mindmap cho lớp này.</div>';return}
+  if(!state.mindmapRoot||!maps.some(x=>x[0]===state.mindmapRoot))state.mindmapRoot=maps[0][0];
+  const root=maps.find(x=>x[0]===state.mindmapRoot)||maps[0], branches=root[2]||[];
+  const cx=50,cy=50, radius=35, n=branches.length;
+  const pts=branches.map((_,i)=>{const a=(-Math.PI/2)+(i/n)*Math.PI*2;return {x:cx+radius*Math.cos(a),y:cy+radius*Math.sin(a)}});
+  const lines=pts.map(p=>`<line x1="${cx}" y1="${cy}" x2="${p.x}" y2="${p.y}" class="mind-line"/>`).join('');
+  const nodes=pts.map((p,i)=>`<button class="mind-node mind-child" style="left:${p.x}%;top:${p.y}%" data-mind-child="${escapeHtml(branches[i])}">${escapeHtml(branches[i])}</button>`).join('');
+  app.innerHTML=`<div class="note mindmap-note">🧠 <b>Mindmap Vocabulary · Lớp ${state.grade}</b><br>Gốc từ ở giữa → các dạng từ, từ ghép và cụm từ phát triển xung quanh. Nhãn <b>mở rộng</b> có thể vượt chương trình lớp để tạo cầu nối lên cấp độ cao hơn.</div><div class="mindmap-tabs">${maps.map(x=>`<button class="mind-tab ${x[0]===root[0]?'active':''}" data-mind-root="${escapeHtml(x[0])}"><b>${escapeHtml(x[0])}</b><span>${escapeHtml(x[1])}</span></button>`).join('')}</div><div class="mindmap-card"><div class="mindmap-canvas"><svg viewBox="0 0 100 100" preserveAspectRatio="none" class="mind-svg">${lines}</svg><div class="mind-node mind-root" style="left:${cx}%;top:${cy}%"><strong>${escapeHtml(root[0])}</strong><span>${escapeHtml(root[1])}</span></div>${nodes}</div><div class="mindmap-legend"><span>● Gốc từ</span><span>○ Dạng phát triển</span><span>↗ Mở rộng word family / cụm từ</span></div></div>`;
+  document.querySelectorAll('[data-mind-root]').forEach(b=>b.onclick=()=>{state.mindmapRoot=b.dataset.mindRoot;save();renderMindmap()});
 }
 
 // ===== TOÁN TƯ DUY =====
@@ -340,3 +415,4 @@ function renderVietnamese(){
 }
 
 render();
+hydrateVocabulary().then(()=>{if(vocabularyReady){render();toast('Đã nạp bộ từ vựng mở rộng theo cấp độ ✓')}});
