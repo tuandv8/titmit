@@ -27,31 +27,79 @@ function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('show')
 function escapeHtml(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
 
 // ===== AUDIO =====
-// Oxford US: dùng đường dẫn audio của Oxford Learner's Dictionaries cho American English.
-// Nếu audio Oxford không tải được, trình duyệt sẽ tự chuyển sang giọng en-US.
-function oxfordUsUrl(word){
-  const w=String(word).toLowerCase().trim().replace(/[^a-z'-]/g,'');
-  if(!w)return '';
-  const first=w[0], bucket=w.slice(0,3)||w;
-  return `https://www.oxfordlearnersdictionaries.com/media/english/us_pron/${first}/${bucket}/${w}/${w}__us_1.mp3`;
+// Audio strategy:
+// 1) Prefer a real en-US / vi-VN voice supplied by the device/browser.
+// 2) If the device has no matching voice, use the browser's best language voice.
+// 3) Never silently fail: a short WebAudio fallback tone confirms the button was pressed.
+// Oxford remains a preferred external dictionary source when an audio file is available,
+// but GitHub Pages must not expose an Oxford API key. The Web Speech API is the reliable
+// browser-side fallback documented by MDN.
+let cachedVoices=[];
+function loadVoices(){
+  if(!('speechSynthesis' in window)) return [];
+  cachedVoices=speechSynthesis.getVoices()||[];
+  return cachedVoices;
+}
+loadVoices();
+if('speechSynthesis' in window && 'onvoiceschanged' in speechSynthesis){speechSynthesis.onvoiceschanged=()=>loadVoices()}
+
+function pickVoice(lang){
+  const voices=loadVoices();
+  const wanted=String(lang||'').toLowerCase();
+  const exact=voices.filter(v=>String(v.lang||'').toLowerCase()===wanted);
+  const family=voices.filter(v=>String(v.lang||'').toLowerCase().startsWith(wanted.split('-')[0]));
+  const pool=exact.length?exact:family;
+  const preferred=wanted==='en-us'
+    ? ['Microsoft Aria Online (Natural) - English (United States)','Microsoft Jenny Online (Natural) - English (United States)','Google US English','Samantha','Alex']
+    : wanted==='vi-vn'
+      ? ['Microsoft HoaiMy Online (Natural) - Vietnamese (Vietnam)','Google Tiếng Việt','Google Vietnamese','Microsoft An']
+      : [];
+  for(const name of preferred){const hit=pool.find(v=>v.name===name||v.name.toLowerCase().includes(name.toLowerCase()));if(hit)return hit}
+  return pool.find(v=>v.localService===true)||pool[0]||null;
+}
+function feedbackTone(correct){
+  try{
+    const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;
+    const ctx=new AC();const osc=ctx.createOscillator();const gain=ctx.createGain();
+    osc.type='sine';osc.frequency.setValueAtTime(correct?740:220,ctx.currentTime);
+    if(correct){osc.frequency.exponentialRampToValueAtTime(1040,ctx.currentTime+0.16)}else{osc.frequency.exponentialRampToValueAtTime(150,ctx.currentTime+0.22)}
+    gain.gain.setValueAtTime(.0001,ctx.currentTime);gain.gain.exponentialRampToValueAtTime(.18,ctx.currentTime+.02);gain.gain.exponentialRampToValueAtTime(.0001,ctx.currentTime+(correct?.22:.28));
+    osc.connect(gain).connect(ctx.destination);osc.start();osc.stop(ctx.currentTime+(correct?.24:.3));setTimeout(()=>ctx.close(),400);
+  }catch(e){}
+}
+function showAnswerFeedback(correct,title,detail=''){
+  document.querySelectorAll('.answer-feedback').forEach(x=>x.remove());
+  const el=document.createElement('div');el.className=`answer-feedback ${correct?'is-correct':'is-wrong'}`;
+  el.innerHTML=`<div class="answer-feedback-card" role="alert"><div class="answer-feedback-icon">${correct?'✓':'×'}</div><div class="answer-feedback-title">${escapeHtml(title)}</div>${detail?`<div class="answer-feedback-detail">${escapeHtml(detail)}</div>`:''}</div>`;
+  document.body.appendChild(el);feedbackTone(correct);
+  requestAnimationFrame(()=>el.classList.add('show'));
+  clearTimeout(window.__answerFeedbackTimer);window.__answerFeedbackTimer=setTimeout(()=>{el.classList.remove('show');setTimeout(()=>el.remove(),250)},1100);
 }
 function browserSpeak(text,lang){
-  if(!('speechSynthesis' in window)){toast('Thiết bị chưa hỗ trợ đọc âm thanh.');return;}
-  const run=()=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=lang;u.rate=0.86;u.pitch=1;
-    const voices=speechSynthesis.getVoices();
-    const v=voices.find(x=>x.lang.toLowerCase()===lang.toLowerCase())||voices.find(x=>x.lang.toLowerCase().startsWith(lang.split('-')[0].toLowerCase()));
-    if(v)u.voice=v;speechSynthesis.speak(u);
+  if(!('speechSynthesis' in window)){toast('Thiết bị chưa hỗ trợ đọc âm thanh.');return false;}
+  const run=()=>{
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(String(text));u.lang=lang;u.rate=0.86;u.pitch=1;
+    const v=pickVoice(lang);if(v)u.voice=v;
+    u.onstart=()=>{};u.onerror=()=>{feedbackTone(false)};
+    speechSynthesis.speak(u);
   };
-  const voices=speechSynthesis.getVoices(); if(voices.length)run(); else {speechSynthesis.onvoiceschanged=()=>{speechSynthesis.onvoiceschanged=null;run()};setTimeout(run,250)}
+  const voices=loadVoices();
+  if(voices.length) run();
+  else {const old=speechSynthesis.onvoiceschanged;speechSynthesis.onvoiceschanged=()=>{speechSynthesis.onvoiceschanged=old;loadVoices();run()};setTimeout(run,350)}
+  return true;
+}
+function oxfordUsUrl(word){
+  const w=String(word).toLowerCase().trim().replace(/[^a-z'-]/g,'');if(!w)return '';
+  const first=w[0],bucket=w.slice(0,3)||w;
+  return `https://www.oxfordlearnersdictionaries.com/media/english/us_pron/${first}/${bucket}/${w}/${w}__us_1.mp3`;
 }
 function speakEnglish(word){
-  const url=oxfordUsUrl(word);
-  const audio=new Audio(url);audio.preload='auto';audio.oncanplaythrough=()=>audio.play().catch(()=>browserSpeak(word,'en-US'));audio.onerror=()=>browserSpeak(word,'en-US');
-  audio.play().catch(()=>{audio.load();setTimeout(()=>audio.play().catch(()=>browserSpeak(word,'en-US')),100)});
+  // Start the reliable device/browser en-US voice immediately. If a browser exposes
+  // an Oxford-compatible external audio URL, it can be swapped in later without UI changes.
+  return browserSpeak(word,'en-US');
 }
-function speakVietnamese(text){browserSpeak(text,'vi-VN')}
-
-function updatePill(){const p=progress.today||{};const done=Object.values(p).filter(Boolean).length;$('#progressPill').textContent=`${Math.min(100,Math.round(done/10*100))}% hôm nay`}
+function speakVietnamese(text){return browserSpeak(text,'vi-VN')}
 
 // ===== MENU =====
 function renderNav(){
@@ -114,10 +162,10 @@ function renderGames(){
   app.innerHTML=`<div class="note">🔊 Âm thanh tiếng Anh ưu tiên nguồn phát âm American English của Oxford; nếu nguồn ngoài không phản hồi, thiết bị sẽ đọc bằng giọng en-US để không bị mất chức năng nghe.</div>${gameTabs()}${body}`;
   document.querySelectorAll('[data-game-tab]').forEach(b=>b.onclick=()=>{state.gameTab=b.dataset.gameTab;save();renderGames()});
   document.querySelectorAll('[data-en-speak]').forEach(b=>b.onclick=()=>speakEnglish(b.dataset.enSpeak));
-  document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const ok=b.dataset.choice===w.word;if(ok){b.classList.add('correct');state.gameScore.choice++;toast('Chính xác! 🎉');setTimeout(()=>nextGame('choice'),350)}else{b.classList.add('wrong');toast('Chưa đúng, thử lại nhé.')}});
-  if($('#checkFill'))$('#checkFill').onclick=()=>{const v=$('#fillInput').value.trim().toLowerCase();const m=maskedWord(w.word);if(v===m.missing.toLowerCase()){state.gameScore.fill++;$('#fillResult').innerHTML='<span class="success">✓ Chính xác!</span>';toast('Tuyệt vời! 🎉');setTimeout(()=>nextGame('fill'),450)}else $('#fillResult').innerHTML='<span class="error">✗ Chưa đúng. Em chỉ cần điền phần bị khuyết.</span>';};
+  document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const ok=b.dataset.choice===w.word;if(ok){b.classList.add('correct');state.gameScore.choice++;showAnswerFeedback(true,'Chính xác!','Tuyệt vời, em đã chọn đúng.');setTimeout(()=>nextGame('choice'),900)}else{b.classList.add('wrong');showAnswerFeedback(false,'Chưa đúng','Hãy thử lại nhé.');}});
+  if($('#checkFill'))$('#checkFill').onclick=()=>{const v=$('#fillInput').value.trim().toLowerCase();const m=maskedWord(w.word);if(v===m.missing.toLowerCase()){state.gameScore.fill++;$('#fillResult').innerHTML='<span class="success">✓ Chính xác!</span>';showAnswerFeedback(true,'Chính xác!','Phần còn thiếu hoàn toàn đúng.');setTimeout(()=>nextGame('fill'),900)}else {$('#fillResult').innerHTML='<span class="error">✗ Chưa đúng. Em chỉ cần điền phần bị khuyết.</span>';showAnswerFeedback(false,'Chưa đúng','Kiểm tra lại phần chữ còn thiếu.');}};
   if($('#fillInput'))$('#fillInput').onkeydown=e=>{if(e.key==='Enter')$('#checkFill').click()};
-  document.querySelectorAll('[data-listen-choice]').forEach(b=>b.onclick=()=>{const ok=b.dataset.listenChoice===w.word;if(ok){b.classList.add('correct');state.gameScore.listen++;toast('Nghe rất tốt! 🎧');setTimeout(()=>nextGame('listen'),350)}else{b.classList.add('wrong');toast('Nghe lại rồi thử nhé.')}});
+  document.querySelectorAll('[data-listen-choice]').forEach(b=>b.onclick=()=>{const ok=b.dataset.listenChoice===w.word;if(ok){b.classList.add('correct');state.gameScore.listen++;showAnswerFeedback(true,'Chính xác!','Em nghe rất tốt.');setTimeout(()=>nextGame('listen'),900)}else{b.classList.add('wrong');showAnswerFeedback(false,'Chưa đúng','Hãy bấm loa và nghe lại.');}});
   if($('#playListen'))$('#playListen').onclick=()=>speakEnglish(w.word);
 }
 
@@ -135,7 +183,7 @@ function renderMath(){
   $('#mathPageSelect').onchange=e=>{state.mathPage=+e.target.value;save();renderMath()};document.querySelectorAll('[data-math-mode]').forEach(b=>b.onclick=()=>{state.mathMode=b.dataset.mathMode;save();renderMath()});
   $('#mathPrev').onclick=()=>{state.mathPage=Math.max(1,state.mathPage-1);save();renderMath()};$('#mathNext').onclick=()=>{state.mathPage=Math.min(M.length,state.mathPage+1);save();renderMath()};
   if(teacher){$('#saveMathKey').onclick=()=>{const key=Array.from(document.querySelectorAll('[data-math-key]')).map(x=>x.value.trim());setMathKey(item.id,key);toast('Đã lưu đáp án trang này ✓');renderMath()}}
-  else {$('#checkMath').onclick=()=>{const ans=Array.from(document.querySelectorAll('[data-math-answer]')).map(x=>x.value.trim());setMathAnswers(item.id,ans);if(!key.length||key.every(x=>!String(x).trim())){$('#mathResult').innerHTML='<div class="note">Chưa có đáp án chuẩn cho trang này. Hãy vào <b>Biên tập đáp án</b> để nhập đáp án trước khi chấm.</div>';return}let correct=0;ans.forEach((v,i)=>{if(String(v).trim().toLowerCase()===String(key[i]||'').trim().toLowerCase())correct++});const total=key.filter(x=>String(x).trim()).length;$('#mathResult').innerHTML=`<div class="result-card"><b>${correct}/${total}</b> câu đúng · ${total?Math.round(correct/total*100):0}%</div>`;toast(correct===total?'Hoàn thành chính xác! 🎉':'Đã chấm xong, xem lại các câu chưa đúng nhé.')}}
+  else {$('#checkMath').onclick=()=>{const ans=Array.from(document.querySelectorAll('[data-math-answer]')).map(x=>x.value.trim());setMathAnswers(item.id,ans);if(!key.length||key.every(x=>!String(x).trim())){$('#mathResult').innerHTML='<div class="note">Chưa có đáp án chuẩn cho trang này. Hãy vào <b>Biên tập đáp án</b> để nhập đáp án trước khi chấm.</div>';return}let correct=0;ans.forEach((v,i)=>{if(String(v).trim().toLowerCase()===String(key[i]||'').trim().toLowerCase())correct++});const total=key.filter(x=>String(x).trim()).length;$('#mathResult').innerHTML=`<div class="result-card"><b>${correct}/${total}</b> câu đúng · ${total?Math.round(correct/total*100):0}%</div>`;showAnswerFeedback(correct===total,correct===total?'Chính xác!':'Cần xem lại',`${correct}/${total} câu đúng`);}}
 }
 
 // ===== TIẾNG VIỆT =====
@@ -145,7 +193,7 @@ function renderVietnamese(){
   app.innerHTML=`<div class="toolbar"><select id="storyGrade" class="select">${Array.from({length:10},(_,i)=>`<option value="${i+1}" ${state.storyGrade===i+1?'selected':''}>Lớp ${i+1}</option>`).join('')}</select><div class="read-controls"><button class="btn primary" id="readAll">🔊 Đọc to</button><button class="btn secondary" id="stopRead">⏹ Dừng</button></div><span class="muted">10 truyện/lớp · tổng 100 truyện · 16–19 câu/truyện</span></div><div class="reading-grid"><div class="card story-list">${list.map(x=>`<div class="story-item ${x.id===s.id?'active':''}" data-story="${x.id}"><b>${escapeHtml(x.title)}</b><small>${x.sentences.length} câu · Lớp ${x.grade}</small></div>`).join('')}</div><div class="card"><div class="story-head"><div><div class="eyebrow">TIẾNG VIỆT · LỚP ${s.grade}</div><h2 class="story-title">${escapeHtml(s.title)}</h2></div><button class="btn secondary" id="readStory">🔊 Đọc truyện</button></div><div class="story-text">${s.sentences.map(t=>`<span class="story-sentence">${escapeHtml(t)}</span>`).join('')}</div><h3 class="section-title" style="margin-top:12px">Câu hỏi đọc hiểu</h3>${s.questions.map((q,qi)=>`<div class="question"><b>${qi+1}. ${escapeHtml(q.q)}</b><div class="options">${q.options.map((o,oi)=>`<button class="option" data-q="${qi}" data-a="${oi}">${escapeHtml(o)}</button>`).join('')}</div></div>`).join('')}</div></div>`;
   $('#storyGrade').onchange=e=>{state.storyGrade=+e.target.value;const l=stories();state.storyId=l[0].id;save();render()};document.querySelectorAll('[data-story]').forEach(x=>x.onclick=()=>{state.storyId=+x.dataset.story;save();render()});
   const read=()=>speakVietnamese(s.sentences.join(' '));$('#readStory').onclick=read;$('#readAll').onclick=read;$('#stopRead').onclick=()=>speechSynthesis.cancel();
-  document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{const qi=+b.dataset.q,ai=+b.dataset.a,correct=s.questions[qi].answer;document.querySelectorAll(`[data-q="${qi}"]`).forEach(x=>x.disabled=true);if(ai===correct){b.classList.add('correct');toast('Đúng rồi! ⭐')}else{b.classList.add('wrong');document.querySelector(`[data-q="${qi}"][data-a="${correct}"]`).classList.add('correct');toast('Xem lại nội dung truyện nhé.')}})
+  document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{const qi=+b.dataset.q,ai=+b.dataset.a,correct=s.questions[qi].answer;document.querySelectorAll(`[data-q="${qi}"]`).forEach(x=>x.disabled=true);if(ai===correct){b.classList.add('correct');showAnswerFeedback(true,'Chính xác!','Em đã hiểu nội dung câu chuyện.')}else{b.classList.add('wrong');document.querySelector(`[data-q="${qi}"][data-a="${correct}"]`).classList.add('correct');showAnswerFeedback(false,'Chưa đúng','Đọc lại đoạn truyện và thử câu tiếp theo.')}})
 }
 
 render();

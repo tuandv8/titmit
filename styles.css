@@ -9,3 +9,24 @@
 @media(max-width:1000px){.math-layout{grid-template-columns:1fr}.math-answer-card{position:static}.math-image-wrap{min-height:auto}.topbar{padding-left:16px}}
 @media(max-width:760px){.sidebar{width:290px}.math-image-wrap{padding:6px}.math-page-image{width:100%}.inline-word{font-size:34px;padding:22px 10px}.inline-letter-input{width:58px;min-width:58px;height:50px}.game-tabs{width:100%;overflow:auto}.game-tabs .tab{white-space:nowrap}.story-text{font-size:17px}}
 @media print{.sidebar,.topbar,.math-answer-card,.toolbar,.toast{display:none!important}.main{margin:0;width:100%}.math-image-wrap{background:#fff}.math-page-image{box-shadow:none;max-width:100%}}
+
+/* ===== UX FIX: full-width page + centered answer feedback ===== */
+.main{margin-left:0!important;width:100%!important;min-width:0}
+.content{width:100%;max-width:1500px}
+.sidebar{transform:translateX(-105%);transition:transform .25s ease;z-index:40}
+.sidebar.open{transform:translateX(0)}
+.menu-overlay{z-index:39}
+.menu{display:block!important}
+.answer-feedback{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:24px;background:rgba(38,25,55,.32);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .18s ease}
+.answer-feedback.show{opacity:1}
+.answer-feedback-card{min-width:min(86vw,430px);padding:34px 38px 30px;border-radius:32px;background:#fff;text-align:center;box-shadow:0 25px 70px rgba(39,20,65,.28);transform:scale(.55) rotate(-3deg);animation:feedbackPop .55s cubic-bezier(.18,.89,.32,1.28) forwards}
+.answer-feedback-icon{width:112px;height:112px;margin:0 auto 15px;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 72px/1 Nunito;color:#fff;box-shadow:0 15px 35px rgba(0,0,0,.14);animation:feedbackBounce .8s ease-out .05s both}
+.is-correct .answer-feedback-icon{background:#32bd84}
+.is-wrong .answer-feedback-icon{background:#e75c75}
+.answer-feedback-title{font:900 34px 'Baloo 2';line-height:1.05;margin-top:4px}
+.is-correct .answer-feedback-title{color:#15915f}
+.is-wrong .answer-feedback-title{color:#d24761}
+.answer-feedback-detail{margin-top:8px;font-size:16px;font-weight:800;color:var(--muted)}
+@keyframes feedbackPop{0%{transform:scale(.55) rotate(-3deg)}70%{transform:scale(1.06) rotate(1deg)}100%{transform:scale(1) rotate(0)}}
+@keyframes feedbackBounce{0%{transform:scale(.5);opacity:.2}55%{transform:scale(1.15);opacity:1}100%{transform:scale(1)}}
+@media(max-width:760px){.answer-feedback-card{min-width:82vw;padding:28px 22px 25px;border-radius:26px}.answer-feedback-icon{width:92px;height:92px;font-size:60px}.answer-feedback-title{font-size:30px}.answer-feedback-detail{font-size:14px}}
