@@ -1,11 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>My GitHub Website</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Learning Hub — Học vui mỗi ngày</title>
+<meta name="description" content="Learning Hub cho trẻ: Tiếng Anh, Toán tư duy và Tiếng Việt">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This site is hosted on GitHub Pages.</p>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brand-icon">🎓</div><div><b>Learning Hub</b><span>Học vui mỗi ngày</span></div></div>
+    <div class="side-label">LỚP HỌC</div>
+    <div id="gradeNav" class="grade-nav"></div>
+    <div class="sidebar-footer">MVP • dễ mở rộng<br><small>Dữ liệu tiến độ được lưu tự động</small></div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <button class="icon-btn menu" id="menuBtn" aria-label="Mở menu">☰</button>
+      <div><div class="eyebrow">LEARNING HUB</div><h1 id="pageTitle">Tổng quan</h1></div>
+      <div class="top-actions"><span class="pill" id="progressPill">0% hôm nay</span><button class="avatar">HS</button></div>
+    </header>
+    <section id="app" class="content"></section>
+  </main>
+</div>
+<div id="toast" class="toast"></div>
+<script src="content.js"></script><script src="app.js"></script>
 </body>
 </html>
