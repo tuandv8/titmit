@@ -114,6 +114,17 @@ function playAudioUrl(url,onFail){
   }catch(e){fail()}
   return true;
 }
+function remoteTtsUrl(text,lang){
+  const q=encodeURIComponent(String(text||''));
+  if(!q)return '';
+  const tl=lang==='vi-VN'?'vi-VN':'en-US';
+  return `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${encodeURIComponent(tl)}&q=${q}`;
+}
+function speakRemoteTts(text,lang,onFail){
+  const url=remoteTtsUrl(text,lang);
+  if(!url){onFail?.();return false}
+  return playAudioUrl(url,onFail);
+}
 function googleEnglishAudioUrl(word){
   const w=String(word).trim().toLowerCase();
   return w?`https://ssl.gstatic.com/dictionary/static/sounds/oxford/${encodeURIComponent(w)}--_us_1.mp3`:'';
@@ -138,27 +149,35 @@ async function resolveDictionaryAudio(word){
   }catch(e){}
   return '';
 }
-function openAudioFile(url){
-  try{window.open(url,'_blank','noopener');toast('Đang mở file phát âm…')}catch(e){}
-}
+function openAudioFile(url){try{window.open(url,'_blank','noopener');toast('Đang mở file phát âm…')}catch(e){}}
 function speakEnglish(word){
   const w=String(word).trim().toLowerCase();
-  const primary=googleEnglishAudioUrl(w);
-  const secondary=googleEnglishAudioUrlAlt(w);
-  const cached=remoteAudioCache[w];
-  const afterGoogle=()=>{
-    if(secondary)return playAudioUrl(secondary,()=>afterDictionary());
-    afterDictionary();
-  };
-  const afterDictionary=()=>resolveDictionaryAudio(w).then(url=>{
-    if(url)return playAudioUrl(url,()=>browserSpeak(w,'en-US'));
-    // Last resort: device voice. If speech synthesis is unavailable, let the user open the MP3.
-    if(!browserSpeak(w,'en-US'))openAudioFile(primary);
-  });
-  if(cached)return playAudioUrl(cached,()=>playAudioUrl(primary,()=>afterGoogle()));
-  return playAudioUrl(primary,()=>afterGoogle());
+  // Priority: natural female en-US voice if the device exposes Microsoft/Google neural voices;
+  // otherwise use a remote TTS MP3 so playback does not depend on installed voices.
+  const preferred=loadVoices().find(v=>/Jenny.*Natural|Aria.*Natural/i.test(v.name||'')&&/^en[-_]?US/i.test(v.lang||''));
+  if(preferred){browserSpeak(w,'en-US');return true}
+  const primary=googleEnglishAudioUrl(w), secondary=googleEnglishAudioUrlAlt(w), cached=remoteAudioCache[w];
+  const fallbackRemote=()=>speakRemoteTts(w,'en-US',()=>resolveDictionaryAudio(w).then(url=>url?playAudioUrl(url,()=>browserSpeak(w,'en-US')):browserSpeak(w,'en-US')));
+  if(cached)return playAudioUrl(cached,()=>playAudioUrl(primary,()=>playAudioUrl(secondary,()=>fallbackRemote())));
+  return playAudioUrl(primary,()=>playAudioUrl(secondary,()=>fallbackRemote()));
 }
-function speakVietnamese(text){return browserSpeak(text,'vi-VN')}
+let vnQueue=[];
+function speakVietnamese(text){
+  const raw=String(text||'').trim();if(!raw)return false;
+  vnQueue=raw.match(/.{1,150}(?:[\s,.;!?]|$)/g)||[raw];
+  vnQueue=vnQueue.map(x=>x.trim()).filter(Boolean);
+  stopActiveAudio();
+  const playNext=()=>{
+    if(!vnQueue.length)return;
+    const part=vnQueue.shift();
+    speakRemoteTts(part,'vi-VN',()=>{
+      if('speechSynthesis' in window){browserSpeak(part,'vi-VN')}
+      setTimeout(playNext,Math.max(700,part.length*45));
+    });
+    if(activeAudio)activeAudio.onended=()=>{if(activeAudio)activeAudio=null;setTimeout(playNext,120)};
+  };
+  playNext();return true;
+}
 
 // ===== MENU =====
 function navigate(page){
@@ -212,22 +231,37 @@ function vocabArt(word){return VOCAB_ART[String(word).toLowerCase()]||'🔤'}
 function vocabIllustration(word,cls='vocab-art',label=''){return `<div class="${cls}" role="img" aria-label="${escapeHtml(label||word)}">${vocabArt(word)}</div>`}
 function isMastered(word){return !!(progress.mastered&&progress.mastered[word])}
 function setMastered(word,val){progress.mastered=progress.mastered||{};progress.mastered[word]=val;progress.today=progress.today||{};progress.today[word]=val;save()}
-function renderAllVocab(){
-  const groups=Array.from({length:10},(_,i)=>({grade:i+1,words:D.vocabulary[String(i+1)]||[]}));
-  return `<div class="all-vocab-grid">${groups.map(g=>`<section class="card all-vocab-grade"><div class="all-vocab-head"><h3>📘 Lớp ${g.grade}</h3><span>${g.words.length} từ</span></div><div class="all-vocab-rows">${g.words.map((x,i)=>`<div class="all-vocab-row"><span class="all-vocab-num">${i+1}</span>${vocabIllustration(x.word,'vocab-art vocab-art-sm',x.word)}<div class="all-vocab-word"><b>${escapeHtml(x.word)}</b><span class="all-vocab-meaning">${escapeHtml(x.meaning)}</span></div><button class="btn secondary sound" title="Nghe ${escapeHtml(x.word)}" data-en-speak="${escapeHtml(x.word)}">🔊</button><label class="check"><input type="checkbox" ${isMastered(x.word)?'checked':''} data-check="${escapeHtml(x.word)}"> Đã thuộc</label></div>`).join('')}</div></section>`).join('')}</div>`;
+function vocabDetail(x){
+  if(!x)return;
+  const old=document.querySelector('.vocab-detail-overlay'); if(old)old.remove();
+  const overlay=document.createElement('div'); overlay.className='vocab-detail-overlay';
+  overlay.innerHTML=`<div class="vocab-detail-popup" role="dialog" aria-modal="true" aria-label="Chi tiết từ vựng">
+    ${vocabIllustration(x.word,'vocab-art vocab-art-detail',x.word)}
+    <div class="eyebrow">VOCABULARY · LỚP ${state.grade}</div>
+    <h2>${escapeHtml(x.word)}</h2><div class="vocab-detail-meaning">${escapeHtml(x.meaning)}</div>
+    <div class="vocab-detail-actions"><button class="btn primary" data-detail-speak="${escapeHtml(x.word)}">🔊 Nghe tiếng Anh</button><button class="btn secondary" data-detail-vn="${escapeHtml(x.meaning)}">🔊 Nghe tiếng Việt</button></div>
+    <div class="vocab-detail-note">Chạm ra ngoài khung để đóng.</div>
+  </div>`;
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.remove()});
+  overlay.querySelector('[data-detail-speak]').onclick=e=>{e.stopPropagation();speakEnglish(x.word)};
+  overlay.querySelector('[data-detail-vn]').onclick=e=>{e.stopPropagation();speakVietnamese(x.meaning)};
+}
+function bindVocabInteractions(){
+  document.querySelectorAll('[data-en-speak]').forEach(x=>x.onclick=e=>{e.stopPropagation();speakEnglish(x.dataset.enSpeak)});
+  document.querySelectorAll('[data-vocab-detail]').forEach(x=>x.onclick=()=>vocabDetail(D.vocabulary[String(state.grade)]?.find(w=>w.word===x.dataset.vocabDetail)));
+  document.querySelectorAll('[data-master]').forEach(x=>x.onclick=e=>{e.stopPropagation();setMastered(x.dataset.master,!isMastered(x.dataset.master));render()});
+  document.querySelectorAll('[data-check]').forEach(x=>x.onchange=e=>{e.stopPropagation();setMastered(x.dataset.check,x.checked);render()});
 }
 function renderVocab(){
   const words=vocab(), mastered=words.filter(x=>isMastered(x.word)), need=words.filter(x=>!isMastered(x.word));
   let body='';
-  if(state.vocabTab==='all') body=renderAllVocab();
-  else if(state.vocabTab==='today') body=`<div class="flash-grid">${words.map((x,i)=>`<div class="flash"><div>${vocabIllustration(x.word,'vocab-art vocab-art-card',x.word)}<span class="eyebrow">TỪ ${i+1}/10</span><div class="word">${escapeHtml(x.word)}</div><div class="meaning">${escapeHtml(x.meaning)}</div></div><div class="flash-actions"><button class="btn secondary sound" title="Nghe phát âm Mỹ" data-en-speak="${escapeHtml(x.word)}">🔊</button><button class="btn ${isMastered(x.word)?'good':'warn'}" data-master="${escapeHtml(x.word)}">${isMastered(x.word)?'✓ Đã thuộc':'□ Cần học'}</button></div></div>`).join('')}</div>`;
-  else {const arr=state.vocabTab==='mastered'?mastered:need;body=arr.length?`<div class="word-list">${arr.map(x=>`<div class="word-row">${vocabIllustration(x.word,'vocab-art vocab-art-row',x.word)}<div><b>${escapeHtml(x.word)}</b><span>${escapeHtml(x.meaning)}</span></div><button class="btn secondary sound" data-en-speak="${escapeHtml(x.word)}">🔊</button><label class="check"><input type="checkbox" ${isMastered(x.word)?'checked':''} data-check="${escapeHtml(x.word)}"> Đã thuộc</label></div>`).join('')}</div>`:`<div class="empty">Chưa có từ nào ở mục này.</div>`}
-  app.innerHTML=`<div class="toolbar"><select id="gradeSelect" class="select">${Array.from({length:10},(_,i)=>`<option value="${i+1}" ${state.grade===i+1?'selected':''}>Lớp ${i+1}</option>`).join('')}</select><span class="muted">Lớp ${state.grade}: ${words.length} từ · Tổng toàn bộ: ${allVocab().length} từ</span></div><div class="tabs vocab-tabs"><button class="tab ${state.vocabTab==='today'?'active':''}" data-vtab="today">10 từ mới hôm nay</button><button class="tab ${state.vocabTab==='mastered'?'active':''}" data-vtab="mastered">Vocab đã thuộc (${mastered.length})</button><button class="tab ${state.vocabTab==='need'?'active':''}" data-vtab="need">Cần học (${need.length})</button><button class="tab ${state.vocabTab==='all'?'active':''}" data-vtab="all">📚 Tất cả Vocab (10 lớp)</button></div>${body}`;
-  $('#gradeSelect').onchange=e=>{state.grade=+e.target.value;save();render()};
+  if(state.vocabTab==='today') body=`<div class="flash-grid">${words.slice(0,10).map((x,i)=>`<div class="flash" data-vocab-detail="${escapeHtml(x.word)}"><div>${vocabIllustration(x.word,'vocab-art vocab-art-card',x.word)}<span class="eyebrow">TỪ ${i+1}/10</span><div class="word">${escapeHtml(x.word)}</div><div class="meaning">${escapeHtml(x.meaning)}</div></div><div class="flash-actions"><button class="btn secondary sound" title="Nghe phát âm Mỹ" data-en-speak="${escapeHtml(x.word)}">🔊</button><button class="btn ${isMastered(x.word)?'good':'warn'}" data-master="${escapeHtml(x.word)}">${isMastered(x.word)?'✓ Đã thuộc':'□ Cần học'}</button></div></div>`).join('')}</div>`;
+  else if(state.vocabTab==='mastered'||state.vocabTab==='need') {const arr=state.vocabTab==='mastered'?mastered:need;body=arr.length?`<div class="word-list">${arr.map(x=>`<div class="word-row" data-vocab-detail="${escapeHtml(x.word)}">${vocabIllustration(x.word,'vocab-art vocab-art-row',x.word)}<div><b>${escapeHtml(x.word)}</b><span>${escapeHtml(x.meaning)}</span></div><button class="btn secondary sound" data-en-speak="${escapeHtml(x.word)}">🔊</button><label class="check"><input type="checkbox" ${isMastered(x.word)?'checked':''} data-check="${escapeHtml(x.word)}"> Đã thuộc</label></div>`).join('')}</div>`:`<div class="empty">Chưa có từ nào ở mục này.</div>`}
+  else body=`<div class="grade-vocab-grid">${words.map((x,i)=>`<div class="grade-vocab-card" data-vocab-detail="${escapeHtml(x.word)}">${vocabIllustration(x.word,'vocab-art vocab-art-grid',x.word)}<b>${escapeHtml(x.word)}</b><span>${escapeHtml(x.meaning)}</span><button class="btn secondary sound" data-en-speak="${escapeHtml(x.word)}">🔊</button></div>`).join('')}</div>`;
+  app.innerHTML=`<div class="toolbar"><span class="grade-badge">📘 Lớp ${state.grade}</span><span class="muted">${words.length} từ trong danh sách lớp này</span></div><div class="tabs vocab-tabs"><button class="tab ${state.vocabTab==='today'?'active':''}" data-vtab="today">10 từ mới hôm nay</button><button class="tab ${state.vocabTab==='mastered'?'active':''}" data-vtab="mastered">Vocab đã thuộc (${mastered.length})</button><button class="tab ${state.vocabTab==='need'?'active':''}" data-vtab="need">Cần học (${need.length})</button><button class="tab ${state.vocabTab==='all'?'active':''}" data-vtab="all">📚 Vocab lớp ${state.grade}</button></div>${body}<div class="note vocab-curriculum-note">Chương trình GDPT quy định theo <b>cấp học</b>, không ấn định một số từ riêng cho từng lớp. Tiểu học khoảng 600–700 từ; THCS khoảng 800–1000 từ (không tính từ đã học ở tiểu học). Danh sách ứng dụng được phân bổ tăng dần theo lớp để phục vụ học tập.</div>`;
   document.querySelectorAll('[data-vtab]').forEach(x=>x.onclick=()=>{state.vocabTab=x.dataset.vtab;save();render()});
-  document.querySelectorAll('[data-en-speak]').forEach(x=>x.onclick=()=>speakEnglish(x.dataset.enSpeak));
-  document.querySelectorAll('[data-master]').forEach(x=>x.onclick=()=>{setMastered(x.dataset.master,!isMastered(x.dataset.master));render()});
-  document.querySelectorAll('[data-check]').forEach(x=>x.onchange=()=>{setMastered(x.dataset.check,x.checked);render()});
+  bindVocabInteractions();
 }
 
 // ===== VOCAB GAMES =====

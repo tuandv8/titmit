@@ -61,3 +61,26 @@
 .word-row>div:not(.vocab-art) span{display:block}
 .listen-illustration{width:86px;height:86px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:10px auto 4px;background:#f0eaff;font-size:48px;box-shadow:0 10px 25px rgba(109,74,255,.12)}
 @media(max-width:760px){.vocab-art-game{width:76px;height:76px;font-size:48px}.vocab-art-card{width:62px;height:62px;font-size:36px}.word-row{grid-template-columns:46px 1fr auto}.word-row .check{grid-column:2/4}.all-vocab-row{grid-template-columns:24px 40px minmax(0,1fr) 40px auto!important}.all-vocab-row .check{grid-column:auto}}
+
+/* ===== V6 VOCAB UX ===== */
+.grade-badge{background:#eee9ff;color:#5b3bd0;border-radius:999px;padding:9px 13px;font-weight:900;font-size:13px}
+.vocab-curriculum-note{margin-top:18px;line-height:1.55}
+.grade-vocab-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.grade-vocab-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:18px;padding:15px;text-align:center;cursor:pointer;transition:.18s;min-height:190px;box-shadow:var(--shadow)}
+.grade-vocab-card:hover{transform:translateY(-3px);border-color:#b9a5ff}
+.grade-vocab-card b{display:block;font:900 20px 'Baloo 2';color:#5039b5;margin-top:5px}
+.grade-vocab-card span{display:block;color:var(--muted);font-size:13px;margin:2px 0 10px}
+.grade-vocab-card .sound{margin:auto}
+.vocab-art-grid{width:112px;height:112px;border-radius:28px;font-size:70px;margin:0 auto 7px;box-shadow:0 10px 22px rgba(74,51,120,.1)}
+.vocab-detail-overlay{position:fixed;inset:0;z-index:1100;background:rgba(35,24,50,.45);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;padding:20px}
+.vocab-detail-popup{width:min(92vw,520px);max-height:88vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:30px;padding:34px;text-align:center;box-shadow:0 30px 90px rgba(35,20,65,.32);animation:vocabPopupIn .22s ease-out}
+.vocab-art-detail{width:170px;height:170px;border-radius:38px;font-size:105px;margin:0 auto 16px}
+.vocab-detail-popup h2{font:900 46px 'Baloo 2';color:#5039b5;margin:4px 0}
+.vocab-detail-meaning{font-size:22px;font-weight:800;color:var(--muted);margin-bottom:22px}
+.vocab-detail-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.vocab-detail-actions .btn{min-width:170px}
+.vocab-detail-note{margin-top:20px;font-size:12px;color:#9a90a4}
+@keyframes vocabPopupIn{from{opacity:0;transform:scale(.9) translateY(10px)}to{opacity:1;transform:none}}
+@media(max-width:1050px){.grade-vocab-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:760px){.grade-vocab-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.grade-vocab-card{min-height:170px;padding:10px}.vocab-art-grid{width:88px;height:88px;font-size:56px}.vocab-detail-popup{padding:24px 18px;border-radius:24px}.vocab-art-detail{width:130px;height:130px;font-size:80px}.vocab-detail-popup h2{font-size:38px}.vocab-detail-meaning{font-size:19px}}
+@media(max-width:430px){.grade-vocab-grid{grid-template-columns:1fr 1fr}.vocab-art-grid{width:76px;height:76px;font-size:48px}.grade-vocab-card b{font-size:18px}}
