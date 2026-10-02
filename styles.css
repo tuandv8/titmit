@@ -30,3 +30,34 @@
 @keyframes feedbackPop{0%{transform:scale(.55) rotate(-3deg)}70%{transform:scale(1.06) rotate(1deg)}100%{transform:scale(1) rotate(0)}}
 @keyframes feedbackBounce{0%{transform:scale(.5);opacity:.2}55%{transform:scale(1.15);opacity:1}100%{transform:scale(1)}}
 @media(max-width:760px){.answer-feedback-card{min-width:82vw;padding:28px 22px 25px;border-radius:26px}.answer-feedback-icon{width:92px;height:92px;font-size:60px}.answer-feedback-title{font-size:30px}.answer-feedback-detail{font-size:14px}}
+/* ===== ALL VOCAB ===== */
+.all-vocab-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.all-vocab-grade{padding:16px}
+.all-vocab-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.all-vocab-head h3{font:800 20px 'Baloo 2';margin:0;color:#5039b5}
+.all-vocab-head span{font-size:12px;color:var(--muted);background:#f0eaff;padding:5px 9px;border-radius:999px;font-weight:800}
+.all-vocab-rows{display:flex;flex-direction:column;gap:6px}
+.all-vocab-row{display:grid;grid-template-columns:28px minmax(80px,.8fr) minmax(100px,1fr) 40px auto;gap:8px;align-items:center;padding:8px 7px;border:1px solid var(--line);border-radius:11px;background:#fff}
+.all-vocab-row b{font-size:14px}
+.all-vocab-num{font-size:11px;color:#9b91a7;font-weight:800;text-align:center}
+.all-vocab-meaning{font-size:12px;color:var(--muted)}
+.all-vocab-row .check{white-space:nowrap}
+@media(max-width:1050px){.all-vocab-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.all-vocab-row{grid-template-columns:24px 1fr 40px auto}.all-vocab-meaning{display:none}.vocab-tabs{width:100%;overflow:auto}.vocab-tabs .tab{white-space:nowrap}}
+
+/* V5 vocabulary illustrations */
+.vocab-art{display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:58px;height:58px;border-radius:16px;background:linear-gradient(145deg,#fff,#f1ebff);border:1px solid var(--line);font-size:34px;line-height:1;box-shadow:0 5px 14px rgba(74,51,120,.08)}
+.vocab-art-sm{width:40px;height:40px;border-radius:12px;font-size:24px}
+.vocab-art-card{width:72px;height:72px;border-radius:20px;font-size:42px;margin-bottom:10px}
+.vocab-art-row{width:46px;height:46px;border-radius:13px;font-size:27px}
+.vocab-art-game{width:92px;height:92px;border-radius:24px;font-size:58px;margin:8px auto 12px}
+.vocab-art-option{width:34px;height:34px;border-radius:10px;font-size:21px;box-shadow:none}
+.option-with-art{display:flex;align-items:center;gap:10px}
+.option-with-art .vocab-art-option{flex:0 0 34px}
+.all-vocab-word{min-width:0;display:flex;flex-direction:column;gap:3px}
+.all-vocab-word b{font-size:15px}
+.all-vocab-word .all-vocab-meaning{font-size:12px;color:var(--muted)}
+.word-row>div:not(.vocab-art){min-width:0;display:flex;flex-direction:column;gap:3px}
+.word-row>div:not(.vocab-art) span{display:block}
+.listen-illustration{width:86px;height:86px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:10px auto 4px;background:#f0eaff;font-size:48px;box-shadow:0 10px 25px rgba(109,74,255,.12)}
+@media(max-width:760px){.vocab-art-game{width:76px;height:76px;font-size:48px}.vocab-art-card{width:62px;height:62px;font-size:36px}.word-row{grid-template-columns:46px 1fr auto}.word-row .check{grid-column:2/4}.all-vocab-row{grid-template-columns:24px 40px minmax(0,1fr) 40px auto!important}.all-vocab-row .check{grid-column:auto}}
